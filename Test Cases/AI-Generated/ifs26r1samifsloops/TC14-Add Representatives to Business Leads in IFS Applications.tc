@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>e5804f48-7c57-475a-8ed1-98026128e6f3</id>
+        </flow>
+    </customField>
+    <description>Log in to the IFS applications, create a new business lead, add representatives, and delete selected records. Verify the home page after deletion.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC14-Add Representatives to Business Leads in IFS Applications</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>be53b171-84b6-4966-87a1-f7032526177b</testCaseGuid>
+    <variable>
+        <defaultValue>'BusinessLeadDetailPage;path=0.279000411.615228976.1142250054.2103100803'</defaultValue>
+        <description>Step 6: Navigate to /main/ifsapplications/web/page/BusinessLead/* - (Dynamic URL variable)</description>
+        <id>49877af5-3743-47ab-89c0-7ef6aa14c9b9</id>
+        <masked>false</masked>
+        <name>BusinessLead_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Save'</defaultValue>
+        <description>Step 10: Click on button businessLeadActions (save) - (Dynamic locator variable)</description>
+        <id>8fb8002f-f437-471c-8294-092b41baf4a6</id>
+        <masked>false</masked>
+        <name>button_businessLeadActions_ButtonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"BusinessLeadDetailPage-fndToolbar-action-Save-fndButton-button\\"]'</defaultValue>
+        <description>Step 10: Click on button businessLeadActions (save) - (Dynamic locator variable)</description>
+        <id>82620f49-e322-48d7-bfa5-d02782b14866</id>
+        <masked>false</masked>
+        <name>button_businessLeadActions_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'Save'</defaultValue>
+        <description>Step 17: Click on button dynamicObject (save2) - (Dynamic locator variable)</description>
+        <id>86fe1a54-473b-4439-8481-90f43adbfb5c</id>
+        <masked>false</masked>
+        <name>button_dynamicObject_ButtonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'Add from Representative Group'</defaultValue>
+        <description>Step 18: Click on button dynamicObject (addFromRepGroup) - (Dynamic locator variable)</description>
+        <id>863d713d-49df-4637-8d80-0ba6ca291ffc</id>
+        <masked>false</masked>
+        <name>button_dynamicObject_ButtonTitle_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"BusinessLeadDetailPage-BusinessLeadRepList-fndDataGridToolbar-fndToolbar-action-Save-fndButton-button\\"]'</defaultValue>
+        <description>Step 17: Click on button dynamicObject (save2) - (Dynamic locator variable)</description>
+        <id>8f90a2a0-9416-4d86-848f-53e9a8d264bf</id>
+        <masked>false</masked>
+        <name>button_dynamicObject_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"BusinessLeadDetailPage-BusinessLeadRepList-fndDataGridToolbar-fndToolbar-action-fndButton-BusinessLeadRepList_AddFromRepGroup-button\\"]'</defaultValue>
+        <description>Step 18: Click on button dynamicObject (addFromRepGroup) - (Dynamic locator variable)</description>
+        <id>de8c63a4-c9b9-42b9-b1b0-a0f3ab76c8b3</id>
+        <masked>false</masked>
+        <name>button_dynamicObject_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'Close'</defaultValue>
+        <description>Step 32: Click on button leadCompletion (close) - (Dynamic locator variable)</description>
+        <id>b1cc188a-092d-40af-b665-fd9d6c81bf38</id>
+        <masked>false</masked>
+        <name>button_leadCompletion_ButtonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'[class=\\"granite-button-base\\\\ granite-button-wrapper\\\\ granite-button\\\\ granite-primary-button\\\\ ng-star-inserted\\"]'</defaultValue>
+        <description>Step 32: Click on button leadCompletion (close) - (Dynamic locator variable)</description>
+        <id>0a8be272-05f4-412f-a07e-53c833db4e25</id>
+        <masked>false</masked>
+        <name>button_leadCompletion_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"\\\\39 6847cce-b037-42ea-96d6-d2158a48541d\\"]'</defaultValue>
+        <description>Step 25: Click on input checkboxGroup (checkbox) - (Dynamic locator variable)</description>
+        <id>7bc28933-b149-42ab-b67b-9a7ec93f52a9</id>
+        <masked>false</masked>
+        <name>input_checkboxGroup_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"ffa4dfd2-31ef-4a3e-9e35-c9c4e84190fd\\"]'</defaultValue>
+        <description>Step 27: Click on input checkboxGroup (checkbox2) - (Dynamic locator variable)</description>
+        <id>f6cd477b-3ca8-4d75-983e-1549a2cc50eb</id>
+        <masked>false</masked>
+        <name>input_checkboxGroup_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"\\\\39 6847cce-b037-42ea-96d6-d2158a48541d\\"]'</defaultValue>
+        <description>Step 28: Click on input checkboxGroup (checkbox3) - (Dynamic locator variable)</description>
+        <id>cac77c4b-1b29-49b1-acfa-7c2a94ac29c7</id>
+        <masked>false</masked>
+        <name>input_checkboxGroup_css_value_2</name>
+    </variable>
+    <variable>
+        <defaultValue>'AR'</defaultValue>
+        <description>Step 8: Input lead description and select language and country. - (Input data variable)</description>
+        <id>e7555b30-47ab-4030-a286-d0ecdf2e3e61</id>
+        <masked>false</masked>
+        <name>input_country2</name>
+    </variable>
+    <variable>
+        <defaultValue>'EN'</defaultValue>
+        <description>Step 8: Input lead description and select language and country. - (Input data variable)</description>
+        <id>a9f591dd-b480-4153-8103-daa13abf8f6d</id>
+        <masked>false</masked>
+        <name>input_defaultLanguage4</name>
+    </variable>
+    <variable>
+        <defaultValue>'LD_123'</defaultValue>
+        <description>Step 8: Input lead description and select language and country. - (Input data variable)</description>
+        <id>a54e27df-2957-4c7b-a437-abdf9d9647e3</id>
+        <masked>false</masked>
+        <name>input_description2</name>
+    </variable>
+    <variable>
+        <defaultValue>'LC_123'</defaultValue>
+        <description>Step 8: Input lead description and select language and country. - (Input data variable)</description>
+        <id>4bc98b75-9421-4238-98ef-24a142abfa5a</id>
+        <masked>false</masked>
+        <name>input_leadCompany2</name>
+    </variable>
+    <variable>
+        <defaultValue>'STEJ'</defaultValue>
+        <description>Step 14: Enter input value in input name4 - (Input data variable)</description>
+        <id>97a0c412-e1ff-49fc-8b36-567a85bf6188</id>
+        <masked>false</masked>
+        <name>input_name4</name>
+    </variable>
+    <variable>
+        <defaultValue>'UK'</defaultValue>
+        <description>Step 21: Enter input value in input representativeGroup - (Input data variable)</description>
+        <id>5371a696-7947-4985-8d74-a023b9f340be</id>
+        <masked>false</masked>
+        <name>input_representativeGroup</name>
+    </variable>
+    <variable>
+        <defaultValue>'start;path=0.1'</defaultValue>
+        <description>Step 1: Navigate to /main/ifsapplications/web/* - (Dynamic URL variable)</description>
+        <id>2a1f3149-ee44-4b82-a934-1ffc750458cf</id>
+        <masked>false</masked>
+        <name>web_id</name>
+    </variable>
+</TestCaseEntity>

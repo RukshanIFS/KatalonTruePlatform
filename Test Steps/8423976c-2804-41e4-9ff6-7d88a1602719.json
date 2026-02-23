@@ -1,0 +1,360 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "b9b1db28-ecc0-4e65-abcd-23f3b979bfa6",
+      "name": "Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "6a0caebe-bd70-412e-a3ac-d5dc274a35d5",
+      "name": "Login -> Navigate to page '/main/ifsapplications/web/*'",
+      "action_id": "b29ca0c7-4430-4841-8b15-aac3e059ad23",
+      "timestamp": 1771831757449,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "1fb02b68-4dc6-43a7-a66d-c3eea0174303",
+      "name": "Navigate to /main/ifsapplications/web/*",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "f6640fde-bee2-40b9-a274-b9e7b7429797",
+      "name": "Click on input findPage",
+      "action_id": "ed3163bb-a329-4ec0-8edb-ab95f6405b83",
+      "timestamp": 1771831768634,
+      "target_name": "input_findPage",
+      "target_test_object_id": "4807cd60-8696-46fe-b98f-027058236fe8",
+      "sub_steps": []
+    },
+    {
+      "id": "e987e643-552a-42e2-870d-eee0d239e536",
+      "name": "Enter input value in input findPage",
+      "action_id": "a04dfd7f-2f6d-4ce7-b171-1dac02d209ed",
+      "timestamp": 1771831769184,
+      "target_name": "input_findPage",
+      "target_test_object_id": "4807cd60-8696-46fe-b98f-027058236fe8",
+      "sub_steps": []
+    },
+    {
+      "id": "37bdc161-5aa7-4582-b209-fd8d08b08a9e",
+      "name": "Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'",
+      "action_id": "e7313881-fefc-4ea5-bc4a-d73bbdfd15b4",
+      "timestamp": 1771831773869,
+      "target_name": "link_relationshipManagement",
+      "target_test_object_id": "a072f0aa-6b6b-433a-b8a8-1199a9cf2b43",
+      "sub_steps": []
+    },
+    {
+      "id": "5d149b43-c1c4-4425-8015-8c2a911b1787",
+      "name": "Click on button new",
+      "action_id": "64e0f402-10af-48e9-9a6d-67172460ffb6",
+      "timestamp": 1771831776487,
+      "target_name": "button_new",
+      "target_test_object_id": "400f3acb-e55a-483f-9710-750eae8b7e1b",
+      "sub_steps": []
+    },
+    {
+      "id": "a6be7ada-77e1-48ca-b56d-85ca7a3353a3",
+      "name": "Click on input name",
+      "action_id": "8f307b47-a6ad-4ad1-bd86-da8d5414cd5f",
+      "timestamp": 1771831778075,
+      "target_name": "input_name",
+      "target_test_object_id": "51d17d12-b464-4e3c-b8f7-a5f02f8a7322",
+      "sub_steps": []
+    },
+    {
+      "id": "b779d8ac-40fa-4bf9-95a3-fd394563ea59",
+      "name": "Enter input value in input name2",
+      "action_id": "56a2c094-30f9-4785-bcd8-c6914e101c70",
+      "timestamp": 1771831778739,
+      "target_name": "input_name2",
+      "target_test_object_id": "55f4bbb1-e740-4f01-8956-9a525dfd4d8c",
+      "sub_steps": []
+    },
+    {
+      "id": "81db9020-ec42-4467-ae6c-a8768eed04bf",
+      "name": "Click on input category",
+      "action_id": "56f54d07-ca6e-4a8c-ae0d-7a894eee95c7",
+      "timestamp": 1771831783731,
+      "target_name": "input_category",
+      "target_test_object_id": "91d734c9-aeca-4c42-8620-5685be8a7cd6",
+      "sub_steps": []
+    },
+    {
+      "id": "c5ae81e9-354f-47ed-9830-bffbf0606da7",
+      "name": "Enter input value in input category2",
+      "action_id": "1c0fcd02-9324-4acb-aa75-ffd33bc08617",
+      "timestamp": 1771831784413,
+      "target_name": "input_category2",
+      "target_test_object_id": "08e72f10-ec34-4c30-97e6-c29aacb6e76a",
+      "sub_steps": []
+    },
+    {
+      "id": "d39524b1-0c2e-49c1-a14f-87e4a8108e03",
+      "name": "Click on item customer",
+      "action_id": "051ddb17-447f-4078-8b99-72419c281f3a",
+      "timestamp": 1771831786927,
+      "target_name": "item_customer",
+      "target_test_object_id": "4e0b1da5-e466-462c-8656-2ed13374c2e0",
+      "sub_steps": []
+    },
+    {
+      "id": "f5bf3f0c-3769-4e39-a119-2f82a440a362",
+      "name": "Set default language and input business country details.",
+      "action_id": "",
+      "timestamp": 1771831788051,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": [
+        {
+          "id": "79a83ddc-1619-4888-9e5e-ee31aa6affad",
+          "name": "Click on input defaultLanguage",
+          "action_id": "127e4f59-479e-4cee-971a-133c6869002b",
+          "timestamp": 1771831788051,
+          "target_name": "input_defaultLanguage",
+          "target_test_object_id": "30009684-83cc-4c14-a691-15ce0215a34a",
+          "sub_steps": []
+        },
+        {
+          "id": "267e898e-d5b6-46a0-a6d0-45a8142cbb4d",
+          "name": "Enter input value in input defaultLanguage2",
+          "action_id": "ce4eb1fb-ab41-426c-a77a-95746cfd9d65",
+          "timestamp": 1771831788865,
+          "target_name": "input_defaultLanguage2",
+          "target_test_object_id": "7ad106e5-78fb-4667-9c7d-44ae6b77e826",
+          "sub_steps": []
+        },
+        {
+          "id": "480a1c21-9730-40a4-bf06-7f14bb18061a",
+          "name": "Click on item businessDetails",
+          "action_id": "5e1aaf68-115e-4c94-878c-c74f7cce2337",
+          "timestamp": 1771831791329,
+          "target_name": "item_businessDetails",
+          "target_test_object_id": "0f634e3e-b41c-419b-bdc8-8eaee804c873",
+          "sub_steps": []
+        },
+        {
+          "id": "19f061db-f394-4ec3-b8ee-80f15e09d9a6",
+          "name": "Click on input country",
+          "action_id": "891b497d-9652-4d1c-9504-91b77807f95a",
+          "timestamp": 1771831792161,
+          "target_name": "input_country",
+          "target_test_object_id": "f8c6fab6-5451-4bd8-841b-1eca0806593b",
+          "sub_steps": []
+        },
+        {
+          "id": "e1c0c6da-c54d-4f01-bb6e-dc40d8580d0c",
+          "name": "Enter input value in input country2",
+          "action_id": "f2a9ec1d-4446-43e3-bc9c-f61286781caf",
+          "timestamp": 1771831792959,
+          "target_name": "input_country2",
+          "target_test_object_id": "87a12730-cbf5-4068-ae0c-71da6ea3bf51",
+          "sub_steps": []
+        }
+      ]
+    },
+    {
+      "id": "c2398689-ff9a-4184-9fd7-0568957cc10a",
+      "name": "Click on item afghanistan",
+      "action_id": "e1b1b15f-24b0-4db4-bc76-0a565e0aefd3",
+      "timestamp": 1771831794576,
+      "target_name": "item_afghanistan",
+      "target_test_object_id": "1f5ce125-afd5-4932-b97f-dbe0f060915c",
+      "sub_steps": []
+    },
+    {
+      "id": "805613ed-b452-48e1-a801-1cb69effb782",
+      "name": "Click on button crmActions (save)",
+      "action_id": "4cd1fb95-5f00-4fde-8b0c-fb6990a2fef8",
+      "timestamp": 1771831795785,
+      "target_name": "button_crmActions",
+      "target_test_object_id": "b2fdb75b-48f9-49ef-9e65-d1c3e32fee60",
+      "sub_steps": []
+    },
+    {
+      "id": "7d3fbeec-bcb1-4e31-8078-53eb959eff60",
+      "name": "Click on button new2",
+      "action_id": "ce7f75a0-01b6-46b1-9709-01d8abac5ca6",
+      "timestamp": 1771831812388,
+      "target_name": "button_new2",
+      "target_test_object_id": "5dc15eef-4edb-43f9-8dcb-8444125b4f90",
+      "sub_steps": []
+    },
+    {
+      "id": "611a867b-2942-4962-b2d5-d88cee2a63de",
+      "name": "Enter input value in input potential",
+      "action_id": "38ce8d73-9228-4299-b0aa-e7233de6c7d4",
+      "timestamp": 1771831817121,
+      "target_name": "input_potential",
+      "target_test_object_id": "9fc59831-9448-49b6-84a5-605a1eccfe49",
+      "sub_steps": []
+    },
+    {
+      "id": "f0eb03d6-4d77-44cd-8779-0cbc99584d46",
+      "name": "Click on item high",
+      "action_id": "8e0b7136-89c3-456a-9f6c-642bbe918acd",
+      "timestamp": 1771831826474,
+      "target_name": "item_high",
+      "target_test_object_id": "b6f175bb-5ace-4fa7-a7a5-7a19e1486943",
+      "sub_steps": []
+    },
+    {
+      "id": "5a6ed751-1372-4979-8549-de045fcf0e20",
+      "name": "Click on button loyaltyIdPicker",
+      "action_id": "4fd2ede9-34ac-4569-9e82-4fb1b69d6436",
+      "timestamp": 1771831827673,
+      "target_name": "button_loyaltyIdPicker",
+      "target_test_object_id": "fdd27b3c-d78a-4073-a172-90ded72fd1f7",
+      "sub_steps": []
+    },
+    {
+      "id": "922a2655-e0db-460c-bd5a-935b848cebaf",
+      "name": "Click on item high",
+      "action_id": "c35de052-f4fa-48b1-9e6a-2f042e0f825a",
+      "timestamp": 1771831828880,
+      "target_name": "item_high",
+      "target_test_object_id": "b6f175bb-5ace-4fa7-a7a5-7a19e1486943",
+      "sub_steps": []
+    },
+    {
+      "id": "cd185f6b-cfb3-4ecd-a20a-f8f52d4a7d25",
+      "name": "Click on button picker2",
+      "action_id": "3c8fbd1d-76d8-4c8e-b204-efdf150a5271",
+      "timestamp": 1771831830080,
+      "target_name": "button_picker2",
+      "target_test_object_id": "01af0197-4eb2-41b2-9e19-a62e12692a22",
+      "sub_steps": []
+    },
+    {
+      "id": "97e7a986-a3dc-4ec4-ad10-1d80b30cd7c8",
+      "name": "Click on item telemarketing",
+      "action_id": "634fd592-d01e-4f50-bf5c-67991039868b",
+      "timestamp": 1771831831063,
+      "target_name": "item_telemarketing",
+      "target_test_object_id": "525d6f8f-4a8d-4b34-99b6-e191b520e38b",
+      "sub_steps": []
+    },
+    {
+      "id": "d5f608fb-c259-472a-9f06-9d1aa228e667",
+      "name": "Click on button employeeCountPicker",
+      "action_id": "352b600a-cdf0-4a36-9710-bfe683bee3e2",
+      "timestamp": 1771831832068,
+      "target_name": "button_employeeCountPicker",
+      "target_test_object_id": "46afc31f-0fce-40c0-962b-3e012584e288",
+      "sub_steps": []
+    },
+    {
+      "id": "e63cdcfb-270b-4285-ad6d-8fa8c1021765",
+      "name": "Click on item businessDetails ( 11To50)",
+      "action_id": "37b83e2d-6f64-46d5-930c-c2f81135ae3f",
+      "timestamp": 1771831834431,
+      "target_name": "item_businessDetails",
+      "target_test_object_id": "8d0491dc-3a9e-4c29-a8e2-63cf100d9620",
+      "sub_steps": []
+    },
+    {
+      "id": "db4dddf5-034e-4f5a-ac44-0cd546693a24",
+      "name": "Click on input mainRepresentative5",
+      "action_id": "37167ed5-1cd5-47b4-99a8-ef14001b14b4",
+      "timestamp": 1771831838383,
+      "target_name": "input_mainRepresentative5",
+      "target_test_object_id": "d01fbe1c-204e-4660-98a8-8ec443fa8be7",
+      "sub_steps": []
+    },
+    {
+      "id": "d41e572f-ed37-4feb-9195-d2b0a987018f",
+      "name": "Enter input value in input mainRepresentative6",
+      "action_id": "f2545c5d-911a-43d7-b709-9738278faa9b",
+      "timestamp": 1771831839841,
+      "target_name": "input_mainRepresentative6",
+      "target_test_object_id": "a4780b06-21ea-4f8b-bc4c-08ecee3a5078",
+      "sub_steps": []
+    },
+    {
+      "id": "5beea067-a19e-4fa8-b577-6a37efee6be0",
+      "name": "Click on item mainRepresentative2",
+      "action_id": "b85ae0a7-6cbb-4b34-a74a-48dd083dca96",
+      "timestamp": 1771831844609,
+      "target_name": "item_mainRepresentative2",
+      "target_test_object_id": "2c091263-14d7-466c-addb-f17a90efb660",
+      "sub_steps": []
+    },
+    {
+      "id": "d4d3ee5a-fa83-445c-a6d8-258a67404bf5",
+      "name": "Click on button save2",
+      "action_id": "99e3d62d-57e0-4ff4-bfbc-5c33dd7d0ed8",
+      "timestamp": 1771831846462,
+      "target_name": "button_save2",
+      "target_test_object_id": "0a7b553b-396d-4d12-9c76-051413d1be9c",
+      "sub_steps": []
+    },
+    {
+      "id": "7d27edd4-5197-4b4b-8542-ac7a59111b73",
+      "name": "Click on label toggleSwitch",
+      "action_id": "4d935ed2-37de-48f5-974c-dc43acffe208",
+      "timestamp": 1771831858520,
+      "target_name": "label_toggleSwitch",
+      "target_test_object_id": "28a413e0-a1ea-48f3-9129-c0d778eff72d",
+      "sub_steps": []
+    },
+    {
+      "id": "e3d22862-3208-4506-8ba6-94abf7c02b88",
+      "name": "Click on button picker3",
+      "action_id": "2fa26397-263d-4400-9ad2-0b9c6fbcb0a1",
+      "timestamp": 1771831863658,
+      "target_name": "button_picker3",
+      "target_test_object_id": "43fd8d1d-a892-45d4-a5e4-289832a20480",
+      "sub_steps": []
+    },
+    {
+      "id": "531c01c5-b98f-4950-b0b5-5a546323d373",
+      "name": "Enter input value in input parent",
+      "action_id": "5176f459-e454-488c-9080-32eef6d67ecc",
+      "timestamp": 1771831869614,
+      "target_name": "input_parent",
+      "target_test_object_id": "5756ba62-2152-429a-badd-1e0e121f2c7f",
+      "sub_steps": []
+    },
+    {
+      "id": "930142ba-ae58-4dbd-bbad-5d9ff51e670a",
+      "name": "Click on item customerOption",
+      "action_id": "f664788d-d99b-4ff7-8a62-6e6b3c25df78",
+      "timestamp": 1771831875726,
+      "target_name": "item_customerOption",
+      "target_test_object_id": "90518a79-b271-447b-b09d-ed7889a95d11",
+      "sub_steps": []
+    },
+    {
+      "id": "34752a71-d922-4051-841b-49e6dd76d64f",
+      "name": "Click on button deleteRecord",
+      "action_id": "cede0e9a-167c-4451-9b4b-6ed7a235fc99",
+      "timestamp": 1771831884996,
+      "target_name": "button_deleteRecord",
+      "target_test_object_id": "54993724-2c67-495f-badf-b48cc760511b",
+      "sub_steps": []
+    },
+    {
+      "id": "f4a410a8-737d-476e-afce-0b7f9780f30a",
+      "name": "Click on button delete -> Navigate to page ''",
+      "action_id": "ce853c82-824f-4364-a054-eaccce1442b6",
+      "timestamp": 1771831885948,
+      "target_name": "button_delete",
+      "target_test_object_id": "3f636d2c-a587-4fed-bd3d-d475defcb064",
+      "sub_steps": []
+    },
+    {
+      "id": "a4c6b7bc-0d24-415e-831b-db1ad0ccc5b9",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

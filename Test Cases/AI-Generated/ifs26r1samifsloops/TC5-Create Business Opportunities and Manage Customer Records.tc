@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>4acad73c-39e9-4acb-853d-c1748348e82d</id>
+        </flow>
+    </customField>
+    <description>Login, navigate to CRM, create a new business opportunity, input details, and delete records while ensuring the home page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC5-Create Business Opportunities and Manage Customer Records</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>ea0a6ca8-6102-4082-ab36-dad152db1165</testCaseGuid>
+    <variable>
+        <defaultValue>'Save'</defaultValue>
+        <description>Step 17: Click on button crmActions (save) - (Dynamic locator variable)</description>
+        <id>0dac268b-bcbf-48e0-9756-6a57664f0485</id>
+        <masked>false</masked>
+        <name>button_crmAction_ButtonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"CrmCustomerPage-fndToolbar-action-Save-fndButton-button\\"]'</defaultValue>
+        <description>Step 17: Click on button crmActions (save) - (Dynamic locator variable)</description>
+        <id>e1693476-6c36-40fc-8073-04b03a1e56cf</id>
+        <masked>false</masked>
+        <name>button_crmAction_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'New Business Opportunity'</defaultValue>
+        <description>Step 18: Click on button crmActions (newBusinessOpportunity) - (Dynamic locator variable)</description>
+        <id>6341194c-fa65-43f3-b5eb-31950b58738a</id>
+        <masked>false</masked>
+        <name>button_crmActions_ButtonTitle</name>
+    </variable>
+    <variable>
+        <defaultValue>'[id=\\"CrmCustomerPage-fndToolbar-action-fndButton-CrmCustomerPage_CreateBusOppForCustomerCmd-button\\"]'</defaultValue>
+        <description>Step 18: Click on button crmActions (newBusinessOpportunity) - (Dynamic locator variable)</description>
+        <id>e12886c3-d2c8-48b0-9d04-2329f04ed182</id>
+        <masked>false</masked>
+        <name>button_crmActions_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'[class=\\"ng-tns-c3734365419-1484\\\\ ng-trigger\\\\ ng-trigger-collapseExpandAnimationTrigger\\"] fnd-input-field-container:nth-of-type(6)'</defaultValue>
+        <description>Step 9: Click on inputField dynamicObject (defaultLanguage) - (Dynamic locator variable)</description>
+        <id>4538bcbe-6ce6-4f7e-9b4f-aa7f6eec83ed</id>
+        <masked>false</masked>
+        <name>inputField_dynamicObject_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'Customer'</defaultValue>
+        <description>Step 13: Enter input value in input category2 - (Input data variable)</description>
+        <id>ce71debc-306b-46d9-ae10-2904f6443ab2</id>
+        <masked>false</masked>
+        <name>input_category2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Af'</defaultValue>
+        <description>Step 15: Set default language and input business country details. - (Input data variable)</description>
+        <id>5186c9c9-ea34-497f-981a-d4bd277f6d88</id>
+        <masked>false</masked>
+        <name>input_country2</name>
+    </variable>
+    <variable>
+        <defaultValue>'USD'</defaultValue>
+        <description>Step 21: Enter input value in input currency2 - (Input data variable)</description>
+        <id>04f28be3-b471-4e42-b9b5-56d4051e7cf1</id>
+        <masked>false</masked>
+        <name>input_currency2</name>
+    </variable>
+    <variable>
+        <defaultValue>'En'</defaultValue>
+        <description>Step 15: Set default language and input business country details. - (Input data variable)</description>
+        <id>dccde42d-3f05-4f67-8069-7e573b84a354</id>
+        <masked>false</masked>
+        <name>input_defaultLanguage2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Account - CRM'</defaultValue>
+        <description>Step 6: Enter input value in input findPage - (Input data variable)</description>
+        <id>a85a51ec-7020-42db-a1f8-0e140f139242</id>
+        <masked>false</masked>
+        <name>input_findPage</name>
+    </variable>
+    <variable>
+        <defaultValue>'STEJ'</defaultValue>
+        <description>Step 24: Enter input value in input mainRepresentative4 - (Input data variable)</description>
+        <id>66fa83bf-2663-4f4d-9586-500be2e5218c</id>
+        <masked>false</masked>
+        <name>input_mainRepresentative4</name>
+    </variable>
+    <variable>
+        <defaultValue>'Account_567'</defaultValue>
+        <description>Step 11: Enter input value in input name2 - (Input data variable)</description>
+        <id>db8c3e3a-7f64-4f79-a2b4-8905ef943612</id>
+        <masked>false</masked>
+        <name>input_name2</name>
+    </variable>
+    <variable>
+        <defaultValue>'BO_123'</defaultValue>
+        <description>Step 19: Enter input value in input opportunityDescription - (Input data variable)</description>
+        <id>90dbcef5-91cb-464f-8513-98aca3847763</id>
+        <masked>false</masked>
+        <name>input_opportunityDescription</name>
+    </variable>
+    <variable>
+        <defaultValue>'[role=\\"listbox\\"] &gt; li:nth-of-type(3)'</defaultValue>
+        <description>Step 15: Set default language and input business country details. - (Dynamic locator variable)</description>
+        <id>421d46f7-b765-4a52-bd39-4098ba845c50</id>
+        <masked>false</masked>
+        <name>item_businessDetails_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'modalDialogComponent-\\\\(inline01\\\\)-CurrencyCode-lovContainerComponent-lovComponent-lov-row-0'</defaultValue>
+        <description>Step 22: Click on item currencyRepresentative (usdCurrency) - (Dynamic locator variable)</description>
+        <id>e9dfa3d4-003d-40f1-9db5-56a1556709f5</id>
+        <masked>false</masked>
+        <name>item_currencyRepresentative_Id</name>
+    </variable>
+    <variable>
+        <defaultValue>'modalDialogComponent-\\\\(inline01\\\\)-MainRepresentativeId-lovContainerComponent-lovComponent-lov-row-0'</defaultValue>
+        <description>Step 25: Click on item currencyRepresentative (mainRepresentative) - (Dynamic locator variable)</description>
+        <id>691b3633-b1f5-423d-a5fe-8f22a0f3a80d</id>
+        <masked>false</masked>
+        <name>item_currencyRepresentative_Id_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'.selector-lov-row'</defaultValue>
+        <description>Step 22: Click on item currencyRepresentative (usdCurrency) - (Dynamic locator variable)</description>
+        <id>4692d3fd-689f-4e85-acf1-65d6d4e2569c</id>
+        <masked>false</masked>
+        <name>item_currencyRepresentative_css_value</name>
+    </variable>
+    <variable>
+        <defaultValue>'.selector-lov-row'</defaultValue>
+        <description>Step 25: Click on item currencyRepresentative (mainRepresentative) - (Dynamic locator variable)</description>
+        <id>be834d2c-bf88-495f-a59b-16744ad04037</id>
+        <masked>false</masked>
+        <name>item_currencyRepresentative_css_value_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'start;path=0.1'</defaultValue>
+        <description>Step 4: Navigate to /main/ifsapplications/web/* - (Dynamic URL variable)</description>
+        <id>9874acdc-029e-4d16-afcb-096980ec2a75</id>
+        <masked>false</masked>
+        <name>web_id</name>
+    </variable>
+</TestCaseEntity>

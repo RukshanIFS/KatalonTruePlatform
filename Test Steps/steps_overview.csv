@@ -1,0 +1,373 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+4,Manage Customer Relationships and Delete Records in CRM,"Login to the application, navigate to CRM, create a new customer, input details, and delete customer records while verifying the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 7: Click on button new
+Step 8: Click on input name
+Step 9: Enter input value in input name2
+Step 10: Click on button picker
+Step 11: Click on item customer
+Step 12: Set default language and input business country details.
+Step 13: Click on item afghanistan
+Step 14: Click on button crmActions (save)
+Step 15: Click on button crmActions (newBusinessActivity)
+Step 16: Enter input value in input subject
+Step 17: Click on input mainRepresentative
+Step 18: Enter input value in input mainRepresentative2
+Step 19: Click on item mainRepresentativeOption
+Step 20: Click on button ok
+Step 21: Click on button no
+Step 22: Click on button deleteRecord
+Step 23: Click on button delete
+Step 24: Click on div address
+Step 25: Click on fndTabHeader commMethods
+Step 26: Click on div involvedParties
+Step 27: Click on button refresh
+Step 28: Click on fndTabHeader references
+Step 29: Click on fndSelectCell selectRow
+Step 30: Click on div menuTrigger
+Step 31: Click on div menuTrigger
+Step 32: Click on label selectRow
+Step 33: Click on fndSelectCell selectRow
+Step 34: Click on link goToDetails -> Navigate to page '/main/ifsapplications/web/page/BusinessActivity/*'
+Step 35: Click on button deleteSelectedRecords
+Step 36: Delete customer and perform a search for granite chip.
+Step 37: Click on button deleteRecord
+Step 38: Click on button delete -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
+",High,STABLE
+5,Create Business Opportunities and Manage Customer Records,"Login, navigate to CRM, create a new business opportunity, input details, and delete records while ensuring the home page is displayed.","Step 1: Navigate to /landing-page
+Step 2: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 4: Navigate to /main/ifsapplications/web/*
+Step 5: Click on input findPage
+Step 6: Enter input value in input findPage
+Step 7: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 8: Click on button new
+Step 9: Click on inputField dynamicObject (defaultLanguage)
+Step 10: Click on input name
+Step 11: Enter input value in input name2
+Step 12: Click on input category
+Step 13: Enter input value in input category2
+Step 14: Click on item customer
+Step 15: Set default language and input business country details.
+Step 16: Click on item afghanistan
+Step 17: Click on button crmActions (save)
+Step 18: Click on button crmActions (newBusinessOpportunity)
+Step 19: Enter input value in input opportunityDescription
+Step 20: Click on input currency
+Step 21: Enter input value in input currency2
+Step 22: Click on item currencyRepresentative (usdCurrency)
+Step 23: Click on input mainRepresentative3
+Step 24: Enter input value in input mainRepresentative4
+Step 25: Click on item currencyRepresentative (mainRepresentative)
+Step 26: Click on button ok2
+Step 27: Click on button no
+Step 28: Click on fndTabHeader involvedParties
+Step 29: Click on div pageContent
+Step 30: Click on fndTabHeader references
+Step 31: Click on div businessOpportunities
+Step 32: Click on input checkbox
+Step 33: Click on div menuTrigger
+Step 34: Click on link details -> Navigate to page '/main/ifsapplications/web/page/BusinessOpportunity/*'
+Step 35: Click on button deleteSelectedRecord
+Step 36: Click on button deleteRecord -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 37: Click on button deleteRecord
+Step 38: Click on button delete2 -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
+",High,STABLE
+6,User Logout and Verify Landing Page,"Login to the application, navigate to the main page, and perform a logout action while verifying the landing page.","Step 1: Navigate to /
+Step 2: Login
+Step 3: Navigate to /landing-page
+Step 4: Click on link ifsiCloud -> Navigate to page '/main/ifsapplications/web/*'
+Step 5: Click on button userDropdown
+Step 6: Click on button logout -> Navigate to page '/landing-page'
+Step 7: Take full page screenshot as checkpoint
+",High,STABLE
+7,Create and Save Customer Details in CRM,"Login, navigate to CRM, create a new customer with details, and delete the record while confirming the home page is displayed.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 7: Click on button new
+Step 8: Click on input name
+Step 9: Enter input value in input name2
+Step 10: Click on input category
+Step 11: Enter input value in input category2
+Step 12: Click on item customer
+Step 13: Set default language and input business country details.
+Step 14: Click on item afghanistan
+Step 15: Click on button crmActions (save)
+Step 16: Click on button new2
+Step 17: Enter input value in input potential
+Step 18: Click on item high
+Step 19: Click on button loyaltyIdPicker
+Step 20: Click on item high
+Step 21: Click on button picker2
+Step 22: Click on item telemarketing
+Step 23: Click on button employeeCountPicker
+Step 24: Click on item businessDetails ( 11To50)
+Step 25: Click on input mainRepresentative5
+Step 26: Enter input value in input mainRepresentative6
+Step 27: Click on item mainRepresentative2
+Step 28: Click on button save2
+Step 29: Click on label toggleSwitch
+Step 30: Click on button picker3
+Step 31: Enter input value in input parent
+Step 32: Click on item customerOption
+Step 33: Click on button deleteRecord
+Step 34: Click on button delete -> Navigate to page ''
+Step 35: Take full page screenshot as checkpoint
+",High,STABLE
+8,Login and Navigate to Home Page in IFS Application,"Navigate to the landing page, log in, and verify successful navigation to the home page of the IFS application.","Step 1: Navigate to /
+Step 2: Login
+Step 3: Navigate to /landing-page
+Step 4: Click on link ifsiCloud -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,STABLE
+9,Manage Customer Records in IFS CRM Application,"Log in to the CRM application, create a new customer, manage business activities, and delete customer records while performing searches.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 7: Click on button new
+Step 8: Click on input name
+Step 9: Enter input value in input name2
+Step 10: Click on input category
+Step 11: Enter input value in input category2
+Step 12: Click on item customer
+Step 13: Click on input defaultLanguage
+Step 14: Enter input value in input defaultLanguage2
+Step 15: Click on item businessDetails (english)
+Step 16: Click on inputField dynamicObject (country)
+Step 17: Click on input country
+Step 18: Enter input value in input country2
+Step 19: Click on item afghanistan
+Step 20: Click on button crmActions (save)
+Step 21: Click on fndTabHeader involvedParties
+Step 22: Click on button newContact
+Step 23: Click on button picker4
+Step 24: Enter input value in input contact
+Step 25: Click on item noNora
+Step 26: Click on button ok3
+Step 27: Click on button newBusinessActivity2
+Step 28: Click on input subject2
+Step 29: Enter input value in input subject2
+Step 30: Click on input mainRepresentative7
+Step 31: Enter input value in input mainRepresentative8
+Step 32: Click on item mainRepresentativeOption
+Step 33: Click on button ok
+Step 34: Click on button no
+Step 35: Click on fndTabHeader references
+Step 36: Click on input checkbox
+Step 37: Click on link goToDetails -> Navigate to page '/main/ifsapplications/web/page/BusinessActivity/*'
+Step 38: Click on button deleteSelectedRecord
+Step 39: Delete customer and perform a search for granite chip.
+Step 40: Click on div search
+Step 41: Click on textarea advancedSearch
+Step 42: Enter input value in textarea advancedSearch
+Step 43: Click on button search
+Step 44: Click on button deleteRecord
+Step 45: Click on button delete -> Navigate to page ''
+Step 46: Take full page screenshot as checkpoint
+",High,STABLE
+10,Logout from IFS Application and Verify Landing Page,"Log in to the IFS application, log out, and verify successful navigation back to the landing page.","Step 1: Navigate to /
+Step 2: Login
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on button userDropdown
+Step 5: Click on button logout -> Navigate to page '/landing-page'
+Step 6: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 7: Take full page screenshot as checkpoint
+",High,STABLE
+11,Create and Manage Business Leads in IFS Application,"Log in to the business lead page, create a new lead, edit details, and delete selected records while verifying navigation.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 3: Navigate to /main/ifsapplications/web/page/BusinessLead/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input leadCompany
+Step 8: Enter input value in input leadCompany2
+Step 9: Click on button businessLeadActions (save)
+Step 10: Click on button edit
+Step 11: Click on input leadContact
+Step 12: Enter input value in input leadContact2
+Step 13: Click on button businessLeadActions (save)
+Step 14: Click on button status
+Step 15: Click on button leadStatus (qualified)
+Step 16: Click on button deleteSelectedRecords
+Step 17: Click on button delete -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",High,STABLE
+12,User Logout from Main IFS Applications,"Navigate to the main IFS applications page, log in, access the user dropdown, and log out. Verify the landing page after logout.","Step 1: Navigate to /
+Step 2: Login
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on button userDropdown
+Step 5: Click on button logout -> Navigate to page '/landing-page'
+Step 6: Take full page screenshot as checkpoint
+",High,STABLE
+15,Manage Customer Relationships and Communication Methods in IFS Applications,"Logout and log back into the IFS application. Search for a customer, create a new relationship, add communication methods, and verify the changes. Finally, delete the created records.","Step 1: Navigate to /main/ifsapplications/web/*
+Step 2: Click on button userDropdown
+Step 3: Click on button logout -> Navigate to page '/landing-page'
+Step 4: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 5: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 6: Navigate to /main/ifsapplications/web/*
+Step 7: Click on input findPage
+Step 8: Enter input value in input findPage
+Step 9: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 10: Click on button new
+Step 11: Click on input name
+Step 12: Enter input value in input name2
+Step 13: Click on input category
+Step 14: Enter input value in input category2
+Step 15: Click on item customer
+Step 16: Set default language and input business country details.
+Step 17: Click on item argentinaOption
+Step 18: Click on button crmAction (save)
+Step 19: Click on div commMethodsTab
+Step 20: Click on button new2
+Step 21: Click on input communicationMethod
+Step 22: Enter input value in input communicationMethod2
+Step 23: Click on item phoneOption
+Step 24: Click on input value
+Step 25: Enter input value in input value2
+Step 26: Click on button save2
+Step 27: Click on button delete
+Step 28: Click on button delete2
+Step 29: Click on button deleteRecord
+Step 30: Click on button delete2 -> Navigate to page ''
+Step 31: Take full page screenshot as checkpoint
+",Medium,STABLE
+17,Create New Business Lead in Business Lead Module,"Login and navigate to the main application. Find the Business Lead section, create a new lead, and set the description, company, and default language.","Step 1: Navigate to /
+Step 2: Login
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement2 -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 7: Click on button new
+Step 8: Click on input description
+Step 9: Enter input value in input description2
+Step 10: Click on input leadCompany
+Step 11: Enter input value in input leadCompany2
+Step 12: Click on input defaultLanguage
+Step 13: Enter input value in input defaultLanguage2
+Step 14: Click on item french
+Step 15: Click on button leadActions (save)
+Step 16: Click on button status
+Step 17: Click on button leadStatus (inProgress) -> Navigate to page ''
+Step 18: Take full page screenshot as checkpoint
+",Low,NEW
+16,Create New Customer in Relationship Management Module,"Login and navigate to the main application. Find the Relationship Management section, create a new customer, and set default language and country.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 3: Navigate to /main/ifsapplications/web/*
+Step 4: Click on input findPage
+Step 5: Click on input findPage
+Step 6: Enter input value in input findPage
+Step 7: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 8: Click on button new
+Step 9: Click on input name
+Step 10: Enter input value in input name2
+Step 11: Click on button picker
+Step 12: Click on item customer
+Step 13: Click on input defaultLanguage
+Step 14: Enter input value in input defaultLanguage2
+Step 15: Click on input country
+Step 16: Enter input value in input country2
+Step 17: Click on label afghanistan
+Step 18: Click on button businessOpportunityActions (save) -> Navigate to page ''
+Step 19: Take full page screenshot as checkpoint
+",Trivial,NEW
+13,Create and Manage Business Leads in IFS Applications,"Log in to the IFS applications, create a new business lead, manage involved parties, and delete selected records. Verify the home page after deletion.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 3: Navigate to /main/ifsapplications/web/page/BusinessLead/*
+Step 4: Click on button new
+Step 5: Input lead description and select language and country.
+Step 6: Click on item argentinaOption
+Step 7: Click on button businessLeadActions (save)
+Step 8: Click on div involvedPartiesTab
+Step 9: Click on button createLeadContact
+Step 10: Click on div closeDialog
+Step 11: Click on button new2
+Step 12: Click on input name
+Step 13: Enter input value in input name2
+Step 14: Click on item mainRepresentative
+Step 15: Click on button dynamicObject (save2)
+Step 16: Click on div menuTrigger
+Step 17: Click on button main
+Step 18: Click on button businessLeadActions (convertLead)
+Step 19: Click on label customer
+Step 20: Click on button leadCompletion (finish)
+Step 21: Click on button no
+Step 22: Click on button deleteSelected
+Step 23: Click on button delete -> Navigate to page '/landing-page'
+Step 24: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 25: Login -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 26: Navigate to /main/ifsapplications/web/page/BusinessLead/*
+Step 27: Click on button new
+Step 28: Click on input description
+Step 29: Enter input value in input description2
+Step 30: Click on input leadCompany
+Step 31: Enter input value in input leadCompany2
+Step 32: Click on button businessLeadActions (save)
+Step 33: Click on button status
+Step 34: Click on button leadStatus (qualified)
+Step 35: Click on button status
+Step 36: Click on button leadStatus (parked)
+Step 37: Click on textarea note
+Step 38: Enter input value in textarea note2
+Step 39: Click on button ok
+Step 40: Click on button status
+Step 41: Click on button leadStatus (unqualified)
+Step 42: Click on button status
+Step 43: Click on button leadStatus (setRejected)
+Step 44: Click on button status
+Step 45: Click on button leadStatus (unqualified)
+Step 46: Click on button deleteSelectedRecords
+Step 47: Click on button delete -> Navigate to page ''
+Step 48: Take full page screenshot as checkpoint
+",Trivial,STABLE
+14,Add Representatives to Business Leads in IFS Applications,"Log in to the IFS applications, create a new business lead, add representatives, and delete selected records. Verify the home page after deletion.","Step 1: Navigate to /main/ifsapplications/web/*
+Step 2: Click on button userDropdown
+Step 3: Click on button logout -> Navigate to page '/landing-page'
+Step 4: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 5: Login -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 6: Navigate to /main/ifsapplications/web/page/BusinessLead/*
+Step 7: Click on button new
+Step 8: Input lead description and select language and country.
+Step 9: Click on item argentinaOption
+Step 10: Click on button businessLeadActions (save)
+Step 11: Click on fndTabHeader involvedParties
+Step 12: Click on button new2
+Step 13: Click on input name3
+Step 14: Enter input value in input name4
+Step 15: Click on item mainRepresentative
+Step 16: Click on label representatives
+Step 17: Click on button dynamicObject (save2)
+Step 18: Click on button dynamicObject (addFromRepGroup)
+Step 19: Click on button picker
+Step 20: Click on input representativeGroup
+Step 21: Enter input value in input representativeGroup
+Step 22: Click on item representativeGroup
+Step 23: Click on fndSelectCell selectRow
+Step 24: Click on button addRepresentatives
+Step 25: Click on input checkboxGroup (checkbox)
+Step 26: Click on fndSelectCell selectRow
+Step 27: Click on input checkboxGroup (checkbox2)
+Step 28: Click on input checkboxGroup (checkbox3)
+Step 29: Click on button addRepresentatives
+Step 30: Click on fndOverflowContainer close
+Step 31: Click on fndOverflowContainer close
+Step 32: Click on button leadCompletion (close)
+Step 33: Click on button deleteSelected2
+Step 34: Click on button delete
+Step 35: Click on div businessLeadRepList
+Step 36: Click on button deleteSelected2
+Step 37: Click on button delete
+Step 38: Click on button deleteSelectedRecords
+Step 39: Click on button delete -> Navigate to page ''
+Step 40: Take full page screenshot as checkpoint
+",Trivial,STABLE
