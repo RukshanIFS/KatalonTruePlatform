@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>dfe52604-9a4b-4bcd-a2fd-4ec5fa09d402</id>
+        </flow>
+    </customField>
+    <description>Login to IFS Applications, create a new business lead with details, save it, change its status to qualified, and delete the lead. Verify navigation back to the home page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC21-Create and Manage Business Lead in IFS Applications</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>5e050f35-c13c-4792-8366-9f0123f66490</testCaseGuid>
+    <variable>
+        <defaultValue>'En'</defaultValue>
+        <description>Step 14: Enter input value in input defaultLanguage2 - (Input data variable)</description>
+        <id>c094bac2-8769-458d-a1b6-aa406105db8a</id>
+        <masked>false</masked>
+        <name>input_defaultLanguage2</name>
+    </variable>
+    <variable>
+        <defaultValue>'LD_1234'</defaultValue>
+        <description>Step 10: Enter input value in input description2 - (Input data variable)</description>
+        <id>37f72632-8bb1-411e-a329-b42a58a04bcb</id>
+        <masked>false</masked>
+        <name>input_description2</name>
+    </variable>
+    <variable>
+        <defaultValue>'LC_1234'</defaultValue>
+        <description>Step 12: Enter input value in input leadCompany2 - (Input data variable)</description>
+        <id>9e35c5ab-dfdf-4117-bbf0-a665bda0231b</id>
+        <masked>false</masked>
+        <name>input_leadCompany2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Lead'</defaultValue>
+        <description>Step 6: Enter input value in input search - (Input data variable)</description>
+        <id>d3897100-52b3-4da4-a2e0-5dee98d63551</id>
+        <masked>false</masked>
+        <name>input_search</name>
+    </variable>
+    <variable>
+        <defaultValue>'start;path=0.1'</defaultValue>
+        <description>Step 4: Navigate to /main/ifsapplications/web/* - (Dynamic URL variable)</description>
+        <id>b5daac74-07fa-4f51-b66c-06dd70a93748</id>
+        <masked>false</masked>
+        <name>web_id</name>
+    </variable>
+</TestCaseEntity>
