@@ -1,125 +1,90 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-10,Logout from IFS Application and Verify Landing Page,"Log in to the IFS application, log out, and verify successful navigation back to the landing page.","Step 1: Navigate to /
-Step 2: Login
-Step 3: Navigate to /main/ifsapplications/web/*
-Step 4: Click on button userDropdown
-Step 5: Click on button logout -> Navigate to page '/landing-page'
-Step 6: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
-Step 7: Take full page screenshot as checkpoint
-",High,STABLE
-12,User Logout from Main IFS Applications,"Navigate to the main IFS applications page, log in, access the user dropdown, and log out. Verify the landing page after logout.","Step 1: Navigate to /
-Step 2: Login
-Step 3: Navigate to /main/ifsapplications/web/*
-Step 4: Click on button userDropdown
-Step 5: Click on button logout -> Navigate to page '/landing-page'
-Step 6: Take full page screenshot as checkpoint
-",High,STABLE
-22,Login and Verify Home Page in IFS Applications,Login to the IFS Applications and verify successful navigation to the home page.,"Step 1: Navigate to /
-Step 2: Login
-Step 3: Navigate to /landing-page
-Step 4: Click on link ifscloud -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
-",Medium,NEW
-18,Login and Verify Home Page Access in IFS Cloud Application,"Navigate to the landing page, log in using OpenID Connect, search for content, and verify access to the home page.","Step 1: Navigate to /landing-page
-Step 2: Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
-Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 4: Navigate to /main/ifsapplications/web/*
-Step 5: Click on input search
-Step 6: Enter input value in input search
-Step 7: Click on link wwwIfs -> Navigate to page ''
-Step 8: Take full page screenshot as checkpoint
-",Medium,STABLE
-21,Create and Manage Business Lead in IFS Applications,"Login to IFS Applications, create a new business lead with details, save it, change its status to qualified, and delete the lead. Verify navigation back to the home page.","Step 1: Navigate to /landing-page
-Step 2: Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
-Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 4: Navigate to /main/ifsapplications/web/*
-Step 5: Click on input search
-Step 6: Enter input value in input search
-Step 7: Click on link navigateToLeadDetail -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
-Step 8: Click on button new
-Step 9: Click on input description
-Step 10: Enter input value in input description2
-Step 11: Click on input leadCompany
-Step 12: Enter input value in input leadCompany2
-Step 13: Click on input defaultLanguage
-Step 14: Enter input value in input defaultLanguage2
-Step 15: Click on item english
-Step 16: Click on button save
-Step 17: Click on button status
-Step 18: Click on button qualified
-Step 19: Click on button delete
-Step 20: Click on button delete2 -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
-",Low,NEW
-20,Create and Delete Customer Record in IFS Applications,"Login to IFS Applications, create a new customer record with details, save it, and then delete the record. Verify navigation back to the home page.","Step 1: Navigate to /landing-page
-Step 2: Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
-Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 4: Navigate to /main/ifsapplications/web/*
-Step 5: Click on input search
-Step 6: Enter input value in input search
-Step 7: Click on link account -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
-Step 8: Click on button new
-Step 9: Click on input defaultLanguage
-Step 10: Click on input name
-Step 11: Enter input value in input name2
-Step 12: Click on input category
-Step 13: Enter input value in input category2
-Step 14: Click on item customerOption
-Step 15: Click on input defaultLanguage2
-Step 16: Enter input value in input defaultLanguage3
-Step 17: Click on item afarsOption
-Step 18: Click on input country
-Step 19: Enter input value in input country2
-Step 20: Click on item afghanistan
-Step 21: Click on button save
-Step 22: Click on button newBusinessOpportunity
-Step 23: Enter input value in input opportunityDescription
-Step 24: Click on input currency
-Step 25: Enter input value in input currency2
-Step 26: Click on item currency
-Step 27: Click on input mainRepresentative
-Step 28: Enter input value in input mainRepresentative2
-Step 29: Click on item selected
-Step 30: Click on button ok
-Step 31: Click on button no
-Step 32: Click on div involvedParties
-Step 33: Click on div topFade
-Step 34: Click on div references
-Step 35: Click on div businessOpportunities
-Step 36: Click on div businessOpportunities
-Step 37: Click on input checkbox
-Step 38: Click on div navigatorMenu
-Step 39: Click on div menuTrigger
-Step 40: Click on div navigatorMenu2
-Step 41: Click on link details -> Navigate to page '/main/ifsapplications/web/page/BusinessOpportunity/*'
-Step 42: Click on button deleteRecord
-Step 43: Click on button delete
-Step 44: Click on button search -> Navigate to page ''
-Step 45: Take full page screenshot as checkpoint
+30,Manage Customer and Market Data in CRM Application,"Login to the CRM application, create and manage customer and market data, perform advanced searches, and delete records. Logout after completing the tasks.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 3: Navigate to /main/ifsapplications/web/page/CrmCustomer/*
+Step 4: Click on button new
+Step 5: Click on input name
+Step 6: Enter input value in input name2
+Step 7: Click on input category
+Step 8: Enter input value in input category2
+Step 9: Click on item customerOption
+Step 10: Click on input defaultLanguage
+Step 11: Enter input value in input defaultLanguage2
+Step 12: Click on item languageOption
+Step 13: Click on input country
+Step 14: Enter input value in input country2
+Step 15: Click on item option
+Step 16: Click on button save -> Navigate to page '/main/ifsapplications/web/page/SalesMarkets/*'
+Step 17: Click on button new
+Step 18: Enter input value in input marketCode
+Step 19: Click on input description
+Step 20: Enter input value in input description2
+Step 21: Click on button save -> Navigate to page '/main/ifsapplications/web/page/BusinessOpportunity/*'
+Step 22: Click on button new
+Step 23: Click on input description
+Step 24: Enter input value in input description2
+Step 25: Click on input account
+Step 26: Enter input value in input account2
+Step 27: Click on item crmAcc1234
+Step 28: Click on input market
+Step 29: Enter input value in input market2
+Step 30: Click on item crmMl1234
+Step 31: Click on input currencyCode
+Step 32: Enter input value in input currencyCode2
+Step 33: Click on item currency
+Step 34: Click on button save
+Step 35: Click on input mainRepresentative
+Step 36: Click on input mainRepresentative2
+Step 37: Enter input value in input mainRepresentative2
+Step 38: Click on item customerRepresentative
+Step 39: Click on button save
+Step 40: Click on button status
+Step 41: Click on button confirm -> Navigate to page '/main/ifsapplications/web/page/SalesContractTypes/*'
+Step 42: Click on button new
+Step 43: Click on button save
+Step 44: Click on input contractType
+Step 45: Enter input value in input contractType2
+Step 46: Click on input typeDescription
+Step 47: Enter input value in input typeDescription2
+Step 48: Click on button save2 -> Navigate to page '/main/ifsapplications/web/page/BusinessOpportunity/*'
+Step 49: Click on graniteChip searchPanel
+Step 50: Click on graniteChip search
+Step 51: Click on graniteChip advanced
+Step 52: Click on textarea advancedSearch
+Step 53: Enter input value in textarea advancedSearch
+Step 54: Click on button search
+Step 55: Click on div involvedParties
+Step 56: Click on button new2
+Step 57: Enter input value in input competitor
+Step 58: Click on item customerRepresentative2
+Step 59: Click on input competitiveAdvantage
+Step 60: Click on button picker
+Step 61: Enter input value in input competitiveAdvantage2
+Step 62: Click on item service
+Step 63: Click on button save2
+Step 64: Click on button delete
+Step 65: Click on button delete2
+Step 66: Click on graniteChip advanced
+Step 67: Click on textarea advancedSearch
+Step 68: Enter input value in textarea advancedSearch
+Step 69: Click on button search
+Step 70: Click on button deleteRecord
+Step 71: Click on button delete2 -> Navigate to page '/main/ifsapplications/web/page/SalesMarkets/*'
+Step 72: Click on graniteChip search
+Step 73: Click on graniteChip advanced
+Step 74: Click on textarea advancedSearch
+Step 75: Enter input value in textarea advancedSearch
+Step 76: Click on button search
+Step 77: Click on input checkbox
+Step 78: Click on button deleteRecord
+Step 79: Click on button delete -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 80: Click on graniteChip advanced
+Step 81: Click on textarea advancedSearch
+Step 82: Enter input value in textarea advancedSearch
+Step 83: Click on button search
+Step 84: Click on button delete
+Step 85: Click on button delete2
+Step 86: Click on button userDropdown
+Step 87: Click on button logout -> Navigate to page '/landing-page'
+Step 88: Take full page screenshot as checkpoint
 ",Trivial,NEW
-19,Change Password and Access Scheduling Optimization in IFS Cloud Application,"Log in, change the password, and navigate through various pages to access the scheduling optimization configuration.","Step 1: Navigate to /landing-page
-Step 2: Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
-Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 4: Navigate to /main/ifsapplications/web/*
-Step 5: Click on button userDropdown
-Step 6: Click on button logout -> Navigate to page '/landing-page'
-Step 7: Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
-Step 8: Login -> Navigate to page '/auth/realms/*/login-actions/required-action'
-Step 9: Navigate to /auth/realms/*/login-actions/required-action with params (client data, client id, execution, tab id)
-Step 10: Click on input newPassword
-Step 11: Enter input value in input newPassword
-Step 12: Click on input confirmPassword
-Step 13: Enter input value in input confirmPassword
-Step 14: Click on input submit -> Navigate to page '/main/ifsapplications/web/*'
-Step 15: Click on input search
-Step 16: Click on input search
-Step 17: Click on fndCloudHome object
-Step 18: Click on fndCloudHome object
-Step 19: Click on fndCloudHome object2
-Step 20: Click on input search
-Step 21: Enter input value in input search
-Step 22: Click on link schedulingOptimizationConfig -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationConfiguration/*'
-Step 23: Click on input checkbox
-Step 24: Click on button globalOverflow -> Navigate to page ''
-Step 25: Take full page screenshot as checkpoint
-",Trivial,STABLE
