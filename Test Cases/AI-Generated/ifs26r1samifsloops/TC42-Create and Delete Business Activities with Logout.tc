@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>739af0bd-436c-4597-8ae9-01f84e195eb7</id>
+        </flow>
+    </customField>
+    <description>Log in to the business activity page, create new activities, delete them, and log out. Verify that the home page is displayed.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC42-Create and Delete Business Activities with Logout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>38a61e64-ad4f-4ef4-8ccc-d10a1b39eb5a</testCaseGuid>
+    <variable>
+        <defaultValue>'Form;path=0.279000411.615228976.639605548.1196313527'</defaultValue>
+        <description>Step 3: Navigate to /main/ifsapplications/web/page/BusinessActivity/* - (Dynamic URL variable)</description>
+        <id>2031d2b2-7a18-4c61-a000-e24c986d3e36</id>
+        <masked>false</masked>
+        <name>BusinessActivity_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'IFS_aurena'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>5b4518be-baa6-43f7-a1b0-56e5d0d5b8e8</id>
+        <masked>false</masked>
+        <name>auth_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'ea36e306af9575d1ca9c82257bfff3a5'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>2be86507-b645-471a-b678-a6bc253ee86d</id>
+        <masked>false</masked>
+        <name>auth_nonce</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://ifs26r1samifsloops.rnd.ifsdevworld.com/redirect'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>f4b09baa-01ac-4694-a386-55ccb86d8e78</id>
+        <masked>false</masked>
+        <name>auth_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>34738c68-b33f-448f-aecb-b7f5ffef0806</id>
+        <masked>false</masked>
+        <name>auth_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid microprofile-jwt'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>1bfb18ed-849e-452a-916d-816024edb923</id>
+        <masked>false</masked>
+        <name>auth_scope</name>
+    </variable>
+    <variable>
+        <defaultValue>'c63593ac7bd534ce51a3dcad5c8bf277'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>e0e2544d-b4fc-4593-b729-471172ef19c6</id>
+        <masked>false</masked>
+        <name>auth_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'Internal Customer'</defaultValue>
+        <description>Step 8: Enter input value in input connection2 - (Input data variable)</description>
+        <id>1747fefb-42a7-493f-8dab-ea058da77dc0</id>
+        <masked>false</masked>
+        <name>input_connection2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Internal Customer'</defaultValue>
+        <description>Step 20: Enter input value in input filter - (Input data variable)</description>
+        <id>d97ce626-90b3-4d06-ad9c-7e48e9632011</id>
+        <masked>false</masked>
+        <name>input_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'STEJ'</defaultValue>
+        <description>Step 11: Enter input value in input mainRepresentative2 - (Input data variable)</description>
+        <id>2069ccb2-dcff-4cef-af43-875166569bfb</id>
+        <masked>false</masked>
+        <name>input_mainRepresentative2</name>
+    </variable>
+    <variable>
+        <defaultValue>'Internal Customer'</defaultValue>
+        <description>Step 15: Enter input value in input name - (Input data variable)</description>
+        <id>1c82b3ed-03e0-43be-83fc-532d56d5b54b</id>
+        <masked>false</masked>
+        <name>input_name</name>
+    </variable>
+    <variable>
+        <defaultValue>'CRM_BA1234'</defaultValue>
+        <description>Step 6: Enter input value in input subject2 - (Input data variable)</description>
+        <id>f4960e09-614d-4df4-90c4-911abb7b5c43</id>
+        <masked>false</masked>
+        <name>input_subject2</name>
+    </variable>
+    <variable>
+        <defaultValue>'ifs26r1samifsloops'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>0019820c-469e-4082-95e4-d6994f6fc7dc</id>
+        <masked>false</masked>
+        <name>realms_id</name>
+    </variable>
+</TestCaseEntity>

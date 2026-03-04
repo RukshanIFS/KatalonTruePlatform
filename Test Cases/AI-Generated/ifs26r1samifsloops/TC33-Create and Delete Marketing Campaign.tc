@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>fe3c8f5c-a6c1-462b-af61-33d62a916c5d</id>
+        </flow>
+    </customField>
+    <description>Login, navigate to marketing campaigns, create a new campaign, and delete it before logging out.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC33-Create and Delete Marketing Campaign</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>85efe15c-1613-4e88-942f-ff698821d2dd</testCaseGuid>
+    <variable>
+        <defaultValue>'Form;path=0.279000411.615228976.2083681032.2022590804;record=KENhbXBhaWduSWQ9JzInKQ%3D%3D'</defaultValue>
+        <description>Step 4: Navigate to /main/ifsapplications/web/page/MarketingCampaign/* - (Dynamic URL variable)</description>
+        <id>6e1adbee-45f2-4cf1-ac44-96723781b79c</id>
+        <masked>false</masked>
+        <name>MarketingCampaign_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'Conference'</defaultValue>
+        <description>Step 9: Enter input value in input campaignType2 - (Input data variable)</description>
+        <id>ce31e4d6-9877-4588-a19c-1b80fc847333</id>
+        <masked>false</masked>
+        <name>input_campaignType2</name>
+    </variable>
+    <variable>
+        <defaultValue>'new_marketing_1234'</defaultValue>
+        <description>Step 7: Enter input value in input description2 - (Input data variable)</description>
+        <id>e8afb7e4-bb4b-4685-bb5f-b50499dec42b</id>
+        <masked>false</masked>
+        <name>input_description2</name>
+    </variable>
+    <variable>
+        <defaultValue>'ALAIN'</defaultValue>
+        <description>Step 14: Enter input value in input mainRepresentative2 - (Input data variable)</description>
+        <id>2c002039-7102-4e52-aa3a-38763f4fdf14</id>
+        <masked>false</masked>
+        <name>input_mainRepresentative2</name>
+    </variable>
+    <variable>
+        <defaultValue>'2/2/2026'</defaultValue>
+        <description>Step 12: Enter input value in input startDate2 - (Input data variable)</description>
+        <id>f0804d95-cbef-44b0-8916-86f0f116ac5f</id>
+        <masked>false</masked>
+        <name>input_startDate2</name>
+    </variable>
+</TestCaseEntity>

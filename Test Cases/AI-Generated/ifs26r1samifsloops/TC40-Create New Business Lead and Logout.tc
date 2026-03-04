@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>20eb50fa-b6c1-4fa4-8fd6-f76df6547736</id>
+        </flow>
+    </customField>
+    <description>Log in to the business lead page, create a new lead with details, save it, perform a search, and log out. Verify the landing page.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC40-Create New Business Lead and Logout</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>16230fc6-2db9-4ffb-bfbc-5b70c860a630</testCaseGuid>
+    <variable>
+        <defaultValue>'BusinessLeadDetailPage;path=0.279000411.615228976.1142250054.2103100803'</defaultValue>
+        <description>Step 3: Navigate to /main/ifsapplications/web/page/BusinessLead/* - (Dynamic URL variable)</description>
+        <id>efdcadcd-097d-4a4f-942b-671fc0b96f1b</id>
+        <masked>false</masked>
+        <name>BusinessLead_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'IFS_aurena'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>3d48c39e-0091-4377-b913-a03d0055d9ed</id>
+        <masked>false</masked>
+        <name>auth_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'921fd88f71d0781bab9959bd6e5b6d30'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>6fdbd490-c885-435d-933a-9b5f07b26c48</id>
+        <masked>false</masked>
+        <name>auth_nonce</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://ifs26r1samifsloops.rnd.ifsdevworld.com/redirect'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>bf8df8d2-af22-44dd-86b0-bc4ecbd52e40</id>
+        <masked>false</masked>
+        <name>auth_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>47869618-6eed-4ee1-9246-488ac54e31e5</id>
+        <masked>false</masked>
+        <name>auth_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid microprofile-jwt'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>b99306e7-abef-40f8-ac7d-14ba14c6390f</id>
+        <masked>false</masked>
+        <name>auth_scope</name>
+    </variable>
+    <variable>
+        <defaultValue>'4a39a71eda441b7239a2dd16364fade3'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>65121a40-e4e0-4d9a-9fb9-0b1f762642bf</id>
+        <masked>false</masked>
+        <name>auth_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'Au'</defaultValue>
+        <description>Step 13: Enter input value in input country2 - (Input data variable)</description>
+        <id>3e8ecfbc-16ab-49de-965e-925e9fda96d6</id>
+        <masked>false</masked>
+        <name>input_country2</name>
+    </variable>
+    <variable>
+        <defaultValue>'En'</defaultValue>
+        <description>Step 10: Enter input value in input defaultLanguage2 - (Input data variable)</description>
+        <id>9bfc9ba8-5f08-41a9-bb08-65624febb405</id>
+        <masked>false</masked>
+        <name>input_defaultLanguage2</name>
+    </variable>
+    <variable>
+        <defaultValue>'CRM_Lead1234'</defaultValue>
+        <description>Step 6: Enter input value in input description2 - (Input data variable)</description>
+        <id>6e1b6ea5-731a-4af8-be47-5cd5cd2beab5</id>
+        <masked>false</masked>
+        <name>input_description2</name>
+    </variable>
+    <variable>
+        <defaultValue>'CRM Business1234'</defaultValue>
+        <description>Step 8: Enter input value in input leadCompany2 - (Input data variable)</description>
+        <id>63dc0692-649c-4eda-9f1a-bfbf68422af6</id>
+        <masked>false</masked>
+        <name>input_leadCompany2</name>
+    </variable>
+    <variable>
+        <defaultValue>'STEJ'</defaultValue>
+        <description>Step 16: Enter input value in input mainRepresentative2 - (Input data variable)</description>
+        <id>6421cc44-dab1-47cf-a54b-2cba21b22f2a</id>
+        <masked>false</masked>
+        <name>input_mainRepresentative2</name>
+    </variable>
+    <variable>
+        <defaultValue>'ifs26r1samifsloops'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>7f9da90b-47db-4340-8b75-165803f104a8</id>
+        <masked>false</masked>
+        <name>realms_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'(startswith(tolower(Description),\\\'crm_lead1234\\\'))'</defaultValue>
+        <description>Step 21: Enter input value in textarea advancedSearch - (Input data variable)</description>
+        <id>e67d4713-e035-4b9c-a2ae-39b4a5a28ec5</id>
+        <masked>false</masked>
+        <name>textarea_advancedSearch</name>
+    </variable>
+</TestCaseEntity>
