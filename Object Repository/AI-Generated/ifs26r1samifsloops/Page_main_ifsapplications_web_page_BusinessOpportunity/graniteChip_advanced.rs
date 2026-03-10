@@ -28,7 +28,7 @@
         <name>class</name>
         <type>Main</type>
         <value>granite-chip granite-chip-selectable</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
         <name>role</name>
         <type>Main</type>
         <value>option</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -44,6 +44,6 @@
         <name>text</name>
         <type>Main</type>
         <value>Advanced</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

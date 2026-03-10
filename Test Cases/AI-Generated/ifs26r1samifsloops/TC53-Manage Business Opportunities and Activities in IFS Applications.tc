@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestCaseEntity>
+    <comment></comment>
+    <customField>
+        <flow>
+            <id>69f67e3e-7fc1-430c-b266-ff11f4c2e8ff</id>
+        </flow>
+    </customField>
+    <description>Login to IFS Applications, create and manage business opportunities and activities, perform searches, apply filters, and delete records. Logout after verification.</description>
+    <integratedEntity>
+        <productName>TESTOPS</productName>
+        <properties>
+            <entry>
+                <key>integratedValue</key>
+                <value>{"status": "DRAFT", "source": "User Session"}</value>
+            </entry>
+        </properties>
+        <type>TESTCASE</type>
+    </integratedEntity>
+    <name>TC53-Manage Business Opportunities and Activities in IFS Applications</name>
+    <origin>TRUETEST</origin>
+    <tag></tag>
+    <testCaseGuid>f1c1f31b-8f9b-44c1-9445-a6fdcd0ee6ec</testCaseGuid>
+    <variable>
+        <defaultValue>'Form;path=0.279000411.615228976.639605548.1196313527'</defaultValue>
+        <description>Step 3: Navigate to /main/ifsapplications/web/page/BusinessActivity/* - (Dynamic URL variable)</description>
+        <id>50af9b8b-2cf8-449d-9177-1253c0967c36</id>
+        <masked>false</masked>
+        <name>BusinessActivity_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'IFS_aurena'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>3807d2ab-abb7-486f-9a83-476c09b7ada4</id>
+        <masked>false</masked>
+        <name>auth_client_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'ef334499aedf8579062e4151749df887'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>5132c0b0-2732-4665-869c-bda9afe1d6d5</id>
+        <masked>false</masked>
+        <name>auth_nonce</name>
+    </variable>
+    <variable>
+        <defaultValue>'https://ifs26r1samifsloops.rnd.ifsdevworld.com/redirect'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>cf6d65c0-e7a5-440a-9c09-37900b2b9bb0</id>
+        <masked>false</masked>
+        <name>auth_redirect_uri</name>
+    </variable>
+    <variable>
+        <defaultValue>'code'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>0a7c9629-5ae6-44f7-9bec-7f5bcdf10dc0</id>
+        <masked>false</masked>
+        <name>auth_response_type</name>
+    </variable>
+    <variable>
+        <defaultValue>'openid microprofile-jwt'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>317e9a58-56d7-44c9-9c57-9afc50ecda48</id>
+        <masked>false</masked>
+        <name>auth_scope</name>
+    </variable>
+    <variable>
+        <defaultValue>'dc23211ac8b748bbe1ddd12eb510617c'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>70da4b74-67b2-492e-a9f5-3bbe83a47445</id>
+        <masked>false</masked>
+        <name>auth_state</name>
+    </variable>
+    <variable>
+        <defaultValue>'CUSTINT1'</defaultValue>
+        <description>Step 18: Enter input value in input account2 - (Input data variable)</description>
+        <id>e49d08e2-9d69-4aec-bc43-fa0c5aeae100</id>
+        <masked>false</masked>
+        <name>input_account2</name>
+    </variable>
+    <variable>
+        <defaultValue>'CUSTINT1'</defaultValue>
+        <description>Step 8: Enter input value in input connection2 - (Input data variable)</description>
+        <id>cdd17bae-da14-4c6b-9072-654ac210377e</id>
+        <masked>false</masked>
+        <name>input_connection2</name>
+    </variable>
+    <variable>
+        <defaultValue>'CRMBO_1234'</defaultValue>
+        <description>Step 16: Enter input value in input description2 - (Input data variable)</description>
+        <id>ea0fd1cf-e5f9-4b9f-9c8f-60271094818c</id>
+        <masked>false</masked>
+        <name>input_description2</name>
+    </variable>
+    <variable>
+        <defaultValue>'CRMBO_1234'</defaultValue>
+        <description>Step 31: Enter input value in input filter - (Input data variable)</description>
+        <id>ec2ec9de-2751-4793-bde8-d77aff403c31</id>
+        <masked>false</masked>
+        <name>input_filter</name>
+    </variable>
+    <variable>
+        <defaultValue>'STEJ'</defaultValue>
+        <description>Step 11: Enter input value in input mainRepresentative2 - (Input data variable)</description>
+        <id>46aa5159-f3cf-48d3-8ac4-920b94868ab9</id>
+        <masked>false</masked>
+        <name>input_mainRepresentative2</name>
+    </variable>
+    <variable>
+        <defaultValue>'STEJ'</defaultValue>
+        <description>Step 21: Enter input value in input mainRepresentative2 - (Input data variable)</description>
+        <id>cde39e7e-7ce7-491e-8b45-512c46280547</id>
+        <masked>false</masked>
+        <name>input_mainRepresentative2_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'CRM_BA1234'</defaultValue>
+        <description>Step 6: Enter input value in input subject2 - (Input data variable)</description>
+        <id>dd22a9cb-4c75-4bf1-9008-6edf069ca993</id>
+        <masked>false</masked>
+        <name>input_subject2</name>
+    </variable>
+    <variable>
+        <defaultValue>'ifs26r1samifsloops'</defaultValue>
+        <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+        <id>62a64d80-0a24-4f8f-9747-fa50c1478d5e</id>
+        <masked>false</masked>
+        <name>realms_id</name>
+    </variable>
+    <variable>
+        <defaultValue>'(startswith(tolower(Description),\'crm_ba1234\'))'</defaultValue>
+        <description>Step 26: Enter input value in textarea advancedSearch - (Input data variable)</description>
+        <id>f42f3951-981b-4f02-9759-c9ca5c5e65b1</id>
+        <masked>false</masked>
+        <name>textarea_advancedSearch</name>
+    </variable>
+    <variable>
+        <defaultValue>'(startswith(tolower(Description),\'crmbo_1234\'))'</defaultValue>
+        <description>Step 38: Enter input value in textarea advancedSearch - (Input data variable)</description>
+        <id>4afcd1a2-539f-4eea-b5b6-a54d1eedd3bb</id>
+        <masked>false</masked>
+        <name>textarea_advancedSearch_1</name>
+    </variable>
+    <variable>
+        <defaultValue>'(startswith(tolower(Description),\'crm_ba1234\'))'</defaultValue>
+        <description>Step 44: Enter input value in textarea advancedSearch - (Input data variable)</description>
+        <id>1d3d9af3-841e-4493-85c2-595b4286a4c6</id>
+        <masked>false</masked>
+        <name>textarea_advancedSearch_2</name>
+    </variable>
+</TestCaseEntity>

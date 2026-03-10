@@ -16,7 +16,7 @@
         <entry>
             <key>BASIC</key>
             <value>//*[equals(@href,'/main/ifsapplications/web/lobby/c19d9db6-268d-4bd2-ba1c-5315947260ee;path=0.279000411.615228976.310414175') and equals(@text,'Relationship Management / Customer Relationship Management
-            Sales Representative')]</value>
+                    Sales Representative')]</value>
         </entry>
     </selectorCollection>
     <selectorMethod>CSS</selectorMethod>
@@ -29,7 +29,7 @@
         <name>class</name>
         <type>Main</type>
         <value>ng-star-inserted</value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
         <name>href</name>
         <type>Main</type>
         <value>/main/ifsapplications/web/lobby/c19d9db6-268d-4bd2-ba1c-5315947260ee;path=0.279000411.615228976.310414175</value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Relationship Management / Customer Relationship Management
-        Sales Representative</value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+                Sales Representative</value>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

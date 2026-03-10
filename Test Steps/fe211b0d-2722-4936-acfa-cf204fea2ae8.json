@@ -1,0 +1,334 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "7eb7913d-9dcd-4f01-af9b-f3abbcd6bcfc",
+      "name": "Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "f90ba383-26a9-49ec-bb6b-4e6d8a6c9211",
+      "name": "Login -> Navigate to page '/main/ifsapplications/web/*'",
+      "action_id": "9fff6807-c2b5-43cc-96a1-a004e639b607",
+      "timestamp": 1773138114139,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "bd9dffe1-87db-4ad4-8562-387cf6eb9401",
+      "name": "Navigate to /main/ifsapplications/web/*",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "fdd950b6-436b-4f5f-8975-27baa93df29a",
+      "name": "Click on input search",
+      "action_id": "3bb19c1c-459c-4546-8f09-d63d9dd646f5",
+      "timestamp": 1773138125576,
+      "target_name": "input_search",
+      "target_test_object_id": "3e1f23b0-0998-4f24-95cf-3a72a3ba85b9",
+      "sub_steps": []
+    },
+    {
+      "id": "3eb8edbf-e4e6-4129-9594-57420a323163",
+      "name": "Enter input value in input search",
+      "action_id": "252f3f12-975b-4eae-8166-f2000562da78",
+      "timestamp": 1773138126089,
+      "target_name": "input_search",
+      "target_test_object_id": "3e1f23b0-0998-4f24-95cf-3a72a3ba85b9",
+      "sub_steps": []
+    },
+    {
+      "id": "ed27f113-ae0d-4fcb-bea1-cb805e79c306",
+      "name": "Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/lobby/*'",
+      "action_id": "6e17880a-6aca-4785-9bb3-ff5a002d3390",
+      "timestamp": 1773138132311,
+      "target_name": "link_relationshipManagement",
+      "target_test_object_id": "cc33973f-2c43-4505-ba80-fa7ef5d9ae9f",
+      "sub_steps": []
+    },
+    {
+      "id": "dcd8529f-7868-4edb-a3cb-2b82b5ba1c00",
+      "name": "Click on i blowup",
+      "action_id": "53cbca77-7723-4a7d-a44d-600301d30f3c",
+      "timestamp": 1773138134559,
+      "target_name": "i_blowup",
+      "target_test_object_id": "c1f0d2b9-70f9-4949-827f-533d9914b0d4",
+      "sub_steps": []
+    },
+    {
+      "id": "c09da3f9-5396-49af-b53a-a697dfc1b50b",
+      "name": "Click on i collapse",
+      "action_id": "d8086245-8477-40f1-b504-594487839bf7",
+      "timestamp": 1773138135645,
+      "target_name": "i_collapse",
+      "target_test_object_id": "a6090299-d772-4d86-b050-28a7e965d84a",
+      "sub_steps": []
+    },
+    {
+      "id": "4f1ddf1c-fd98-4e6e-b4ab-510565b205fb",
+      "name": "Click on i blowup2",
+      "action_id": "94dc0292-da1e-4c7c-b05d-6faf66ff5166",
+      "timestamp": 1773138137054,
+      "target_name": "i_blowup2",
+      "target_test_object_id": "984e9f61-1f21-4e67-b908-e36ec1fc98c9",
+      "sub_steps": []
+    },
+    {
+      "id": "6004cd46-aa85-46d5-b217-a11ffc29ea93",
+      "name": "Click on i collapse2",
+      "action_id": "68c643c7-28e4-4f56-ba64-8f64ca1c1b41",
+      "timestamp": 1773138137766,
+      "target_name": "i_collapse2",
+      "target_test_object_id": "18fb6cd9-88e7-47b3-bea5-452f86cef14a",
+      "sub_steps": []
+    },
+    {
+      "id": "786ab120-88a1-4a44-9826-f6c18650179a",
+      "name": "Click on i blowup3",
+      "action_id": "11683ac0-7997-449c-87e6-a8af738083b7",
+      "timestamp": 1773138138794,
+      "target_name": "i_blowup3",
+      "target_test_object_id": "ea062e9b-1fab-46bf-9321-9e0f7f7e8c8f",
+      "sub_steps": []
+    },
+    {
+      "id": "5c0e43b7-e89d-4814-a379-997663eb9cad",
+      "name": "Click on i collapse3",
+      "action_id": "b307af1f-2712-4b47-a813-c7ea767198eb",
+      "timestamp": 1773138139676,
+      "target_name": "i_collapse3",
+      "target_test_object_id": "1567b70e-d669-4761-abe9-b4b8470a281f",
+      "sub_steps": []
+    },
+    {
+      "id": "a9ce5544-58f0-4546-8828-a0e0f9693fb8",
+      "name": "Click on i blowup4",
+      "action_id": "81318863-092a-4ebf-b72c-ab40a4ff16b8",
+      "timestamp": 1773138140657,
+      "target_name": "i_blowup4",
+      "target_test_object_id": "eb0c5183-ac2c-4655-a4a7-e8eec8793a76",
+      "sub_steps": []
+    },
+    {
+      "id": "956bccc0-dd49-4e2c-8a5b-6a3d2be7b969",
+      "name": "Click on i collapse4",
+      "action_id": "8071d52e-8314-42f4-90b9-ef622534b95e",
+      "timestamp": 1773138142193,
+      "target_name": "i_collapse4",
+      "target_test_object_id": "72ab4f15-54c5-4d93-b074-7154fee5ba93",
+      "sub_steps": []
+    },
+    {
+      "id": "5a8851d2-95f0-45d2-82fc-e60036c72388",
+      "name": "Click on i blowup5",
+      "action_id": "00ea8c51-4b0f-484d-bb6a-699f49e69b6b",
+      "timestamp": 1773138143220,
+      "target_name": "i_blowup5",
+      "target_test_object_id": "e5ca6a29-eee0-419b-8fbb-f0ed7441684a",
+      "sub_steps": []
+    },
+    {
+      "id": "6e215fa4-069d-4f4e-848f-04319b775d6f",
+      "name": "Click on i collapse5",
+      "action_id": "d86e0080-3959-4043-9ac1-917972369d3e",
+      "timestamp": 1773138144312,
+      "target_name": "i_collapse5",
+      "target_test_object_id": "4d6ced5b-afc3-4be7-b07a-33f378032209",
+      "sub_steps": []
+    },
+    {
+      "id": "16ef420d-7383-46f8-8ef3-68f63d9f4d23",
+      "name": "Click on i blowup6",
+      "action_id": "74d47ff7-1853-4ac7-bfb7-c8f01f3c36c9",
+      "timestamp": 1773138145362,
+      "target_name": "i_blowup6",
+      "target_test_object_id": "d1b852b6-d6bd-45c6-bfa9-1f877c047ab7",
+      "sub_steps": []
+    },
+    {
+      "id": "c01141f3-1915-4f8d-9731-d0ea3f5b5ad4",
+      "name": "Click on i collapse6",
+      "action_id": "2af2b104-2ed0-4492-899d-2578f58cd868",
+      "timestamp": 1773138146376,
+      "target_name": "i_collapse6",
+      "target_test_object_id": "2cde2070-4451-4f94-b89f-bd565b1a13ec",
+      "sub_steps": []
+    },
+    {
+      "id": "595c725f-a388-4c89-8b33-a57e98f18b90",
+      "name": "Click on i blowup7",
+      "action_id": "86541af7-13f1-47b0-813a-d804e1d5fd35",
+      "timestamp": 1773138147208,
+      "target_name": "i_blowup7",
+      "target_test_object_id": "01f0dc56-5eec-48b7-bb18-5c67db01c75f",
+      "sub_steps": []
+    },
+    {
+      "id": "88057788-85c3-4805-b0e8-3c6d389da0d6",
+      "name": "Click on i collapse7",
+      "action_id": "5ca9b273-96a7-479d-8c9f-8ca3d8bf9e81",
+      "timestamp": 1773138148466,
+      "target_name": "i_collapse7",
+      "target_test_object_id": "d9ab6b7f-e488-4721-9f94-2bb94a7839e4",
+      "sub_steps": []
+    },
+    {
+      "id": "80b3be78-bcb1-4f4a-9d7e-a3c5ef5cfc28",
+      "name": "Click on i blowup8",
+      "action_id": "73efc0d7-3c94-4281-a494-5918c5591c6f",
+      "timestamp": 1773138149556,
+      "target_name": "i_blowup8",
+      "target_test_object_id": "f7792914-9b8c-4e22-bcaf-36027e00e49d",
+      "sub_steps": []
+    },
+    {
+      "id": "fbff67cb-dcbd-4ca0-8270-151c5da9aed0",
+      "name": "Click on i collapse8",
+      "action_id": "42964185-e3c1-4b31-a550-6a541caaabc8",
+      "timestamp": 1773138150493,
+      "target_name": "i_collapse8",
+      "target_test_object_id": "804e7705-53ff-4357-8c2e-88688fd383c4",
+      "sub_steps": []
+    },
+    {
+      "id": "fe4a0fe4-95bb-40a4-bf6f-f37fec0321d5",
+      "name": "Click on div zoomIcon",
+      "action_id": "f09c433b-bb7c-49cf-91bf-bb3c9e733b8d",
+      "timestamp": 1773138151379,
+      "target_name": "div_zoomIcon",
+      "target_test_object_id": "6f64ee42-fb18-491f-b492-f0bdc1de6c22",
+      "sub_steps": []
+    },
+    {
+      "id": "ca54ea46-3db9-468e-a87a-b003809bec86",
+      "name": "Click on i collapse9",
+      "action_id": "0259ed9b-089a-4c0a-b268-c92b4dcd8088",
+      "timestamp": 1773138152765,
+      "target_name": "i_collapse9",
+      "target_test_object_id": "3a578a1c-13ff-48de-8b5c-50ca80248141",
+      "sub_steps": []
+    },
+    {
+      "id": "01a182db-a3c7-459b-b7bf-3dfb752fcb70",
+      "name": "Click on i blowup9",
+      "action_id": "f89b5739-fd63-4d70-8da7-dddaf6424559",
+      "timestamp": 1773138154121,
+      "target_name": "i_blowup9",
+      "target_test_object_id": "399da26b-689c-48be-8c02-2c086abcafbf",
+      "sub_steps": []
+    },
+    {
+      "id": "d698f647-bc90-4ca5-a0dc-c233ddc448e9",
+      "name": "Click on i collapse10",
+      "action_id": "d9c98a0b-4e84-4eab-bd5b-f0033c79e8ba",
+      "timestamp": 1773138155206,
+      "target_name": "i_collapse10",
+      "target_test_object_id": "1f574657-c8ef-4bb3-95a8-c631edc764a8",
+      "sub_steps": []
+    },
+    {
+      "id": "6a9cb640-e83c-469f-ab83-7d1390dcd588",
+      "name": "Click on i blowup10",
+      "action_id": "2adb5c15-8017-426e-8dcf-a242a93dd80b",
+      "timestamp": 1773138156492,
+      "target_name": "i_blowup10",
+      "target_test_object_id": "34cdd145-d6cb-46da-ae61-eb3371721a2f",
+      "sub_steps": []
+    },
+    {
+      "id": "07322d5c-6aa0-49c0-8852-95427b31bd8e",
+      "name": "Click on i collapse11",
+      "action_id": "2a1d1132-235c-41e7-8b30-4f38e9d628d2",
+      "timestamp": 1773138157581,
+      "target_name": "i_collapse11",
+      "target_test_object_id": "2eea4490-e98e-4758-9fc8-4a26b0d832e3",
+      "sub_steps": []
+    },
+    {
+      "id": "49959917-b79d-454f-b2c8-e3b2d1198179",
+      "name": "Click on i blowup11",
+      "action_id": "ac2a6337-c682-4585-94b3-ab9a4a0c9481",
+      "timestamp": 1773138159396,
+      "target_name": "i_blowup11",
+      "target_test_object_id": "4d58c6cf-7b66-406a-811a-41019249bee9",
+      "sub_steps": []
+    },
+    {
+      "id": "ce232453-5933-4a30-8708-80b28cc71edd",
+      "name": "Click on i collapse12",
+      "action_id": "edbf9b60-d8e5-4528-b2f1-23a54cef436f",
+      "timestamp": 1773138160647,
+      "target_name": "i_collapse12",
+      "target_test_object_id": "85ebe3ff-2d00-470d-887f-b4ec8052111c",
+      "sub_steps": []
+    },
+    {
+      "id": "009ad625-ecf2-4cf8-8db9-228ed2afb911",
+      "name": "Click on i blowup12",
+      "action_id": "dd07b4d2-7786-47f2-a749-af2bfdc0bf57",
+      "timestamp": 1773138162636,
+      "target_name": "i_blowup12",
+      "target_test_object_id": "7fc86758-d5e3-4064-92b9-8131067a596e",
+      "sub_steps": []
+    },
+    {
+      "id": "312d29cc-002e-419e-8a74-1ed774f8e0a8",
+      "name": "Click on i collapse13",
+      "action_id": "56278052-2eb7-4f01-b363-cbebf965f489",
+      "timestamp": 1773138164250,
+      "target_name": "i_collapse13",
+      "target_test_object_id": "ff34580c-9d7d-413a-b5c1-772c92456118",
+      "sub_steps": []
+    },
+    {
+      "id": "8de8ce6f-e733-413b-91ad-2db20d1a8660",
+      "name": "Click on i blowup13",
+      "action_id": "82b13e01-5f82-46ea-9c84-ab8f12711ae2",
+      "timestamp": 1773138165619,
+      "target_name": "i_blowup13",
+      "target_test_object_id": "08783b89-5943-4b6e-a51f-c4dc9925f897",
+      "sub_steps": []
+    },
+    {
+      "id": "08164ebc-76d7-4386-ae09-4d8e2100f475",
+      "name": "Click on i collapse14",
+      "action_id": "a938b1a7-dac2-4482-ae65-f786b1fd945d",
+      "timestamp": 1773138166287,
+      "target_name": "i_collapse14",
+      "target_test_object_id": "556a1bf5-7cb4-45d0-ae65-16ee875bf830",
+      "sub_steps": []
+    },
+    {
+      "id": "e5c8a4fd-2406-4098-9f51-cd32a133b3bd",
+      "name": "Click on button userDropdown",
+      "action_id": "c52b963b-857a-4c1e-bc94-e9b2ca7decc2",
+      "timestamp": 1773138168156,
+      "target_name": "button_userDropdown",
+      "target_test_object_id": "8196db93-b3ba-4422-9c3b-63b09a0aefd6",
+      "sub_steps": []
+    },
+    {
+      "id": "55e4b024-8a0e-4500-a049-d70b9d68fee5",
+      "name": "Click on button logout -> Navigate to page '/landing-page'",
+      "action_id": "23ff5f02-a708-4c85-8336-fcabbca23ca6",
+      "timestamp": 1773138168912,
+      "target_name": "button_logout",
+      "target_test_object_id": "2d54d966-f449-4042-8b76-93f9be75eac9",
+      "sub_steps": []
+    },
+    {
+      "id": "4bdfffcb-e600-48c4-a062-fdfa2b827d7a",
+      "name": "Take full page screenshot as checkpoint",
+      "action_id": "4b5feba2-0802-45d9-a03c-72682929dae2",
+      "timestamp": 1773138169870,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

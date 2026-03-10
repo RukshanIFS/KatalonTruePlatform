@@ -15,7 +15,7 @@
         </entry>
         <entry>
             <key>BASIC</key>
-            <value>//*[equals(@text,' AUSTRALIA ') and equals(@role,'option')]</value>
+            <value>//*[equals(@text,'AUSTRALIA') and equals(@role,'option')]</value>
         </entry>
     </selectorCollection>
     <selectorMethod>CSS</selectorMethod>
@@ -28,7 +28,7 @@
         <name>class</name>
         <type>Main</type>
         <value>ng-star-inserted</value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -36,14 +36,14 @@
         <name>role</name>
         <type>Main</type>
         <value>option</value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
         <matchCondition>equals</matchCondition>
         <name>text</name>
         <type>Main</type>
-        <value> AUSTRALIA </value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+        <value>AUSTRALIA</value>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

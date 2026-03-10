@@ -28,7 +28,7 @@
         <name>class</name>
         <type>Main</type>
         <value>granite-button-base granite-button-wrapper granite-button granite-flat-button ng-star-inserted</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
         <name>id</name>
         <type>Main</type>
         <value>OpportunityDetailPage-fndToolbar-action-Save-fndButton-button</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
         <name>text</name>
         <type>Main</type>
         <value>Save</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
     <webElementProperties>
         <isSelected>true</isSelected>
@@ -52,6 +52,6 @@
         <name>title</name>
         <type>Main</type>
         <value>Save</value>
-        <webElementGuid>3fbe5ab4-dbc2-4862-9285-5838d2c11232</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
 </WebElementEntity>

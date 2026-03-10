@@ -24,6 +24,6 @@
         <name>class</name>
         <type>Main</type>
         <value>icon-collapse ng-star-inserted</value>
-        <webElementGuid>30bd2636-b893-46cf-b979-1d33007ac79b</webElementGuid>
+        <webElementGuid>3bd89cf4-7f59-42be-aaa7-b057fbbf5ef7</webElementGuid>
     </webElementProperties>
 </WebElementEntity>
