@@ -1,0 +1,163 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "3848e03c-6a42-4736-ac4a-140590b828b4",
+      "name": "Navigate to /landing-page",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "f9380fa7-46a0-4fa5-944d-ab99b28e1a4a",
+      "name": "Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'",
+      "action_id": "f891453c-4e6a-49e2-a4f9-0c845a468d6c",
+      "timestamp": 1773217934455,
+      "target_name": "link_ifscloud",
+      "target_test_object_id": "06779a85-1631-41e7-80fa-0e510f6144d7",
+      "sub_steps": []
+    },
+    {
+      "id": "9fe8409d-9daf-4bd1-b00e-5266f082d892",
+      "name": "Login -> Navigate to page '/main/ifsapplications/web/*'",
+      "action_id": "d6ca2b2e-aa06-4c69-8e0e-294d207f0243",
+      "timestamp": 1773217936438,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "d52cc441-1552-45a6-ae91-9ec10a8d5798",
+      "name": "Navigate to /main/ifsapplications/web/*",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "3a0d9948-87bf-497a-8203-4b37506c2431",
+      "name": "Click on input search",
+      "action_id": "d7b78d87-0660-45aa-bb3d-7e68f08ddb63",
+      "timestamp": 1773217963415,
+      "target_name": "input_search",
+      "target_test_object_id": "3e1f23b0-0998-4f24-95cf-3a72a3ba85b9",
+      "sub_steps": []
+    },
+    {
+      "id": "c71297fb-2429-4d29-aa92-b28e579fffef",
+      "name": "Enter input value in input search",
+      "action_id": "a1d4ce01-642c-44a4-99aa-771884dcecb7",
+      "timestamp": 1773217964692,
+      "target_name": "input_search",
+      "target_test_object_id": "3e1f23b0-0998-4f24-95cf-3a72a3ba85b9",
+      "sub_steps": []
+    },
+    {
+      "id": "d7777034-e8f6-4c3f-a2dd-e2848cab3468",
+      "name": "Click on link schedulingOptimizationConfig -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationConfiguration/*'",
+      "action_id": "1f5ccfcf-536c-4682-b400-26848d249e7e",
+      "timestamp": 1773217970480,
+      "target_name": "link_schedulingOptimizationConfig",
+      "target_test_object_id": "e4abfae4-35f1-470d-b1d2-a2241f95ccd3",
+      "sub_steps": []
+    },
+    {
+      "id": "83b9e563-d822-4ac6-b576-c1cf20c9e350",
+      "name": "Click on input checkbox",
+      "action_id": "28857efd-c5a5-4784-863b-90dbbd91500d",
+      "timestamp": 1773217982584,
+      "target_name": "input_checkbox",
+      "target_test_object_id": "40dd1436-126e-43e9-9b18-90aa780c9fe2",
+      "sub_steps": []
+    },
+    {
+      "id": "20eb5a0f-a8d4-44b6-9b82-fd6397a62d4e",
+      "name": "Click on button globalOverflow",
+      "action_id": "40d9659a-2b57-4fd9-bc85-08f7b8c23434",
+      "timestamp": 1773217984598,
+      "target_name": "button_globalOverflow",
+      "target_test_object_id": "e379e88c-5a1d-4eb9-ab95-2daaf7dfc374",
+      "sub_steps": []
+    },
+    {
+      "id": "8ce7e524-1db4-4b5e-aa9e-53df1138ea96",
+      "name": "Click on link schedulingOptimizationDatasets -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationDatasets/*'",
+      "action_id": "d1ef1559-da9d-4e74-ab15-66ebe60f506f",
+      "timestamp": 1773217986072,
+      "target_name": "link_schedulingOptimizationDatasets",
+      "target_test_object_id": "8ecc388a-e075-43d0-a002-d44446469781",
+      "sub_steps": []
+    },
+    {
+      "id": "6da7f7fc-1881-4f98-9237-80da39451a19",
+      "name": "Click on input checkbox",
+      "action_id": "49c34b20-a33a-4862-ba93-e0e742f3168f",
+      "timestamp": 1773217991054,
+      "target_name": "input_checkbox",
+      "target_test_object_id": "2285728e-5ff6-4479-b938-a2fb851493c5",
+      "sub_steps": []
+    },
+    {
+      "id": "30eb0d00-9aa8-471f-b70a-3bddf2523775",
+      "name": "Click on input checkbox2",
+      "action_id": "68c2ad8c-e662-43e6-b882-8b57e844578c",
+      "timestamp": 1773217992798,
+      "target_name": "input_checkbox2",
+      "target_test_object_id": "68f6ec15-2c13-4971-90a9-7171500dbd21",
+      "sub_steps": []
+    },
+    {
+      "id": "62645468-852f-4b05-9ea7-1b9ddd65d470",
+      "name": "Click on button enableDataset",
+      "action_id": "3ede1fa4-25cd-4f05-bbe0-ea9e9bdf7d0c",
+      "timestamp": 1773217994440,
+      "target_name": "button_enableDataset",
+      "target_test_object_id": "aad5c3af-b699-4049-b6a3-fe70cc452fbf",
+      "sub_steps": []
+    },
+    {
+      "id": "4d226e65-5f78-4cdc-b21b-b51ca8da8dd0",
+      "name": "Click on div schedulingOptimizationDatasets",
+      "action_id": "15b881aa-caeb-4647-bd77-f361456b9a49",
+      "timestamp": 1773218004672,
+      "target_name": "div_schedulingOptimizationDatasets",
+      "target_test_object_id": "616b4316-c689-4c7a-bf0a-34d55dfc4af2",
+      "sub_steps": []
+    },
+    {
+      "id": "b6d6f147-7d19-4c6a-a613-5bd85a788437",
+      "name": "Click on link viewOutputData -> Navigate to page '/main/ifsapplications/web/page/SchedulingOutputData/*'",
+      "action_id": "c90dce96-c6a1-46b1-a946-52d8a7514f94",
+      "timestamp": 1773218009323,
+      "target_name": "link_viewOutputData",
+      "target_test_object_id": "bb9ac9a2-ab29-4fa4-8eec-946b9b047bd9",
+      "sub_steps": []
+    },
+    {
+      "id": "d8afea32-692a-4e62-a725-8b7553eafac2",
+      "name": "Click on button userProfile",
+      "action_id": "4c29ad27-a5d4-4234-8f08-aded70130527",
+      "timestamp": 1773218016055,
+      "target_name": "button_userProfile",
+      "target_test_object_id": "68f2c77e-945e-488a-9613-2b8c118aa50c",
+      "sub_steps": []
+    },
+    {
+      "id": "f742e50e-7c98-4319-bdc1-c10a7b6865e5",
+      "name": "Click on button logout -> Navigate to page '/landing-page'",
+      "action_id": "9a13d2e5-e0ab-4e0c-8d86-e181a88d3a7b",
+      "timestamp": 1773218018487,
+      "target_name": "button_logout",
+      "target_test_object_id": "6b84fa29-2a9d-4127-b04e-b2714083afa8",
+      "sub_steps": []
+    },
+    {
+      "id": "1f7b61b9-f28b-49fd-b1c7-ac17e9f2fe1d",
+      "name": "Take full page screenshot as checkpoint",
+      "action_id": "ce9a986a-459e-4503-a36e-1506f81b1b19",
+      "timestamp": 1773218018945,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
