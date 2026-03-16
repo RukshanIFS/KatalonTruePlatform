@@ -1,0 +1,161 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "c5428caf-1132-43e2-80b6-33ddadb13a39",
+      "name": "Navigate to /landing-page",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "bbae50b1-e78a-40be-9a6e-76c592a35577",
+      "name": "Click on link ifsCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'",
+      "action_id": "dc9631d9-6e50-4794-a8c4-cfb997aff9fa",
+      "timestamp": 1773652643259,
+      "target_name": "link_ifsCloud",
+      "target_test_object_id": "cff74a65-5411-486d-9fc1-042a167b4f95",
+      "sub_steps": []
+    },
+    {
+      "id": "57f29481-9666-4d57-91a5-a8c3ef8e2f02",
+      "name": "Login -> Navigate to page '/main/ifsapplications/web/*'",
+      "action_id": "feea4ad3-5226-4ab7-b3ae-446249d05a12",
+      "timestamp": 1773652646841,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "4f213cc8-daa4-4956-b559-f0e61ae37bd9",
+      "name": "Navigate to /main/ifsapplications/web/*",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "30a11945-86d2-413f-bfb0-8cabe48716c2",
+      "name": "Click on button navigator",
+      "action_id": "e8f978b1-7681-4c78-a005-2c295f7e8d8d",
+      "timestamp": 1773652666478,
+      "target_name": "button_navigator",
+      "target_test_object_id": "c3687d7c-8b1f-44fb-9310-3ac3114e96b4",
+      "sub_steps": []
+    },
+    {
+      "id": "f2f3cad0-8739-439f-950f-4d2dcad92991",
+      "name": "Click on input findPage2",
+      "action_id": "a9de4bf6-f21f-411e-8203-dfb6bd62a7e1",
+      "timestamp": 1773652667741,
+      "target_name": "input_findPage2",
+      "target_test_object_id": "d8ba554b-6a28-4d23-ac00-f636694d9ac7",
+      "sub_steps": []
+    },
+    {
+      "id": "4ec7f072-b575-410d-9a55-cee45c480db5",
+      "name": "Enter input value in input findPage2",
+      "action_id": "273ba35f-4fdf-49e5-81f3-3c427618c368",
+      "timestamp": 1773652668815,
+      "target_name": "input_findPage2",
+      "target_test_object_id": "d8ba554b-6a28-4d23-ac00-f636694d9ac7",
+      "sub_steps": []
+    },
+    {
+      "id": "299a4cc1-ee99-41d1-962b-820a93bef312",
+      "name": "Click on link solutionManagerAutomationOptimization -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationConfiguration/*'",
+      "action_id": "68225ba5-e449-4fb4-a3bf-7d61cdc12a79",
+      "timestamp": 1773652672452,
+      "target_name": "link_solutionManagerAutomationOptimization",
+      "target_test_object_id": "f1be99a1-4f54-4cab-a555-b935bd1ad7c4",
+      "sub_steps": []
+    },
+    {
+      "id": "f65b4d3a-7749-438f-bc77-63643f6e9a26",
+      "name": "Click on input checkbox",
+      "action_id": "e6709e42-60ef-4108-bb56-780570fb0b82",
+      "timestamp": 1773652681494,
+      "target_name": "input_checkbox",
+      "target_test_object_id": "0756fe5b-1e4e-4344-8db3-eb67e442fede",
+      "sub_steps": []
+    },
+    {
+      "id": "e744b747-3a28-4969-aaf5-aa69cc870146",
+      "name": "Click on div menuTrigger",
+      "action_id": "9efe0ca6-ff5b-4dbd-8807-70b651a7cf20",
+      "timestamp": 1773652682774,
+      "target_name": "div_menuTrigger",
+      "target_test_object_id": "e4930f06-fe84-4c05-825c-ba0c953dc806",
+      "sub_steps": []
+    },
+    {
+      "id": "c19f0ec9-c521-4b1c-a9be-f3832fb52e96",
+      "name": "Click on button testConnection",
+      "action_id": "0e50357c-3f7c-41d9-8329-0dc9320a7a9a",
+      "timestamp": 1773652696453,
+      "target_name": "button_testConnection",
+      "target_test_object_id": "f1bafe3a-35cf-4b71-87ff-2791e381a0b3",
+      "sub_steps": []
+    },
+    {
+      "id": "1ea02de8-7a78-420b-8a3f-bab8a790dcfd",
+      "name": "Click on div menuTrigger2",
+      "action_id": "487c007a-4c25-4e89-aa54-a0465909b0cd",
+      "timestamp": 1773652702000,
+      "target_name": "div_menuTrigger2",
+      "target_test_object_id": "b2335af9-48bd-4f02-a4c7-112d377daf33",
+      "sub_steps": []
+    },
+    {
+      "id": "47da3e3a-2d8f-4ae5-a047-e3a0aadb719c",
+      "name": "Click on link schedulingOptimizationDatasets -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationDatasets/*'",
+      "action_id": "ba8d3b09-01a1-44a0-9a72-c0543769f71c",
+      "timestamp": 1773652705023,
+      "target_name": "link_schedulingOptimizationDatasets",
+      "target_test_object_id": "82addf2d-348d-4071-902a-3857c390aa12",
+      "sub_steps": []
+    },
+    {
+      "id": "6f668701-1f21-4130-8bb2-b32a81ac6ceb",
+      "name": "Click on input psoIntegrationDatasetsCheckbox",
+      "action_id": "d88252cd-ef68-44f8-8cdf-894af550386e",
+      "timestamp": 1773652710785,
+      "target_name": "input_psoIntegrationDatasetsCheckbox",
+      "target_test_object_id": "d67213d8-764f-46cd-90aa-91c2b59916a7",
+      "sub_steps": []
+    },
+    {
+      "id": "ef184723-8c02-44fd-a76b-37508979d99d",
+      "name": "Click on input checkbox",
+      "action_id": "0a3bca04-4af3-40db-880c-73a146e89523",
+      "timestamp": 1773652711863,
+      "target_name": "input_checkbox",
+      "target_test_object_id": "613849ae-9c1c-4a4a-bd8f-97ad87da60f5",
+      "sub_steps": []
+    },
+    {
+      "id": "5577f7f7-b109-44ab-8462-cbb8d4ec4983",
+      "name": "Click on button disableDataset",
+      "action_id": "cc2a82f2-55d4-403b-8e39-5f12247ddb5d",
+      "timestamp": 1773652713753,
+      "target_name": "button_disableDataset",
+      "target_test_object_id": "5cd58b26-0ff2-4a48-8a5c-404438455bd8",
+      "sub_steps": []
+    },
+    {
+      "id": "6e0a9af5-2ffb-456f-8c23-b8c42b9330c8",
+      "name": "Click on button ok -> Navigate to page ''",
+      "action_id": "101b8faf-5e41-4493-bb97-fbc98a82d29d",
+      "timestamp": 1773652715281,
+      "target_name": "button_ok",
+      "target_test_object_id": "3b9c0f16-edce-4ab7-8833-f38e146130f3",
+      "sub_steps": []
+    },
+    {
+      "id": "4d5f3aed-3163-45fd-9b6a-8e35df4925d9",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

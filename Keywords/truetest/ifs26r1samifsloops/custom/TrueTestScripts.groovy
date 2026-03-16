@@ -11,6 +11,7 @@ import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import groovy.json.JsonSlurper
 import internal.GlobalVariable
 import java.util.regex.Pattern
+import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -67,7 +68,14 @@ public class TrueTestScripts {
         }
         String url = "$applicationDomain$path";
         if (queryParameters != null && queryParameters.length() > 0) {
-            url = "$url?$queryParameters";
+            int fragmentIndex = url.indexOf("#");
+            String fragment = "";
+            if (fragmentIndex >= 0) {
+                fragment = url.substring(fragmentIndex);
+                url = url.substring(0, fragmentIndex);
+            }
+            String separator = url.contains("?") ? "&" : "?";
+            url = "$url$separator$queryParameters$fragment";
         }
         WebUI.navigateToUrl(url);
         WebUI.delay(DELAY_TIME);
@@ -213,6 +221,20 @@ public class TrueTestScripts {
                 WebUiCommonHelper.switchToDefaultContent()
             }
         }
+    }
+    
+    public static void pressControlAndClick(TestObject to) {
+        String osName = System.getProperty("os.name", "").toLowerCase()
+        Keys keyToSend = osName.contains("mac") ? Keys.COMMAND : Keys.CONTROL
+        WebUI.waitForElementClickable(to, 20)
+        WebElement element = WebUI.findWebElement(to)
+        Actions actions = new Actions(DriverFactory.getWebDriver())
+        actions.keyDown(keyToSend)
+        .click(element)
+        .keyUp(keyToSend)
+        .build()
+        .perform()
+        WebUI.delay(3)
     }
     
     public static switchToNextWindow() {

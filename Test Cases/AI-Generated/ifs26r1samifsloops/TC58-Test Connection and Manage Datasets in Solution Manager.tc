@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login and navigate to Solution Manager. Test connections and manage datasets, then verify the home page.</description>
+   <name>TC58-Test Connection and Manage Datasets in Solution Manager</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d12ad27-483a-4b1f-b925-2b63362db7ac</testCaseGuid>
+   <variable>
+      <defaultValue>'sch op con'</defaultValue>
+      <description>Step 7: Enter input value in input findPage2 - (Input data variable)</description>
+      <id>f5865007-da83-4b2c-b337-618ad733b763</id>
+      <masked>false</masked>
+      <name>input_findPage2</name>
+   </variable>
+   <variable>
+      <defaultValue>'start;path=0.1'</defaultValue>
+      <description>Step 4: Navigate to /main/ifsapplications/web/* - (Dynamic URL variable)</description>
+      <id>877465c5-06fd-47c9-9c6b-469ab9b0c252</id>
+      <masked>false</masked>
+      <name>web_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>6d0ab0c7-cd88-4dce-a696-af198207d34c</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

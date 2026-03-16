@@ -1,160 +1,117 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-49,Test Relationship Management Navigation and Collapse Functionality,"Login and navigate to the Relationship Management section. Perform multiple expand and collapse actions on items, then logout and verify landing page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
-Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 3: Navigate to /main/ifsapplications/web/*
-Step 4: Click on input search
-Step 5: Enter input value in input search
-Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/lobby/*'
-Step 7: Click on i blowup
-Step 8: Click on i collapse
-Step 9: Click on i blowup2
-Step 10: Click on i collapse2
-Step 11: Click on i blowup3
-Step 12: Click on i collapse3
-Step 13: Click on i blowup4
-Step 14: Click on i collapse4
-Step 15: Click on i blowup5
-Step 16: Click on i collapse5
-Step 17: Click on i blowup6
-Step 18: Click on i collapse6
-Step 19: Click on i blowup7
-Step 20: Click on i collapse7
-Step 21: Click on i blowup8
-Step 22: Click on i collapse8
-Step 23: Click on div zoomIcon
-Step 24: Click on i collapse9
-Step 25: Click on i blowup9
-Step 26: Click on i collapse10
-Step 27: Click on i blowup10
-Step 28: Click on i collapse11
-Step 29: Click on i blowup11
-Step 30: Click on i collapse12
-Step 31: Click on i blowup12
-Step 32: Click on i collapse13
-Step 33: Click on i blowup13
-Step 34: Click on i collapse14
-Step 35: Click on button userDropdown
-Step 36: Click on button logout -> Navigate to page '/landing-page'
-Step 37: Take full page screenshot as checkpoint
-",High,STABLE
-48,Navigate and Verify Relationship Management in IFS Applications,Login to the IFS application and navigate to the Relationship Management section. Interact with various elements and verify the home page after collapsing and expanding sections.,"Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
-Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 3: Navigate to /main/ifsapplications/web/*
-Step 4: Click on input search
-Step 5: Enter input value in input search
-Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/lobby/*'
-Step 7: Click on i blowup
-Step 8: Click on i collapse
-Step 9: Click on i blowup2
-Step 10: Click on i collapse2
-Step 11: Click on i blowup3
-Step 12: Click on i collapse3
-Step 13: Click on i blowup4
-Step 14: Click on i collapse4
-Step 15: Click on i blowup5
-Step 16: Click on div zoomIcon
-Step 17: Click on i blowup6
-Step 18: Click on i collapse5
-Step 19: Click on i blowup7
-Step 20: Click on i collapse6
-Step 21: Click on i blowup8
-Step 22: Click on i collapse7
-Step 23: Click on i blowup9
-Step 24: Click on i collapse8
-Step 25: Click on i blowup10
-Step 26: Click on i collapse9
-Step 27: Click on i blowup11
-Step 28: Click on i collapse10
-Step 29: Click on i blowup12
-Step 30: Click on i collapse11
-Step 31: Click on i blowup13
-Step 32: Click on i collapse12
-Step 33: Click on i blowup14
-Step 34: Click on i collapse13 -> Navigate to page ''
-Step 35: Take full page screenshot as checkpoint
-",High,STABLE
-55,Configure Scheduling Optimization Datasets and Logout,"Login to the application, configure scheduling optimization datasets, enable datasets, view output data, and logout successfully.","Step 1: Navigate to /landing-page
-Step 2: Click on link ifscloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+58,Test Connection and Manage Datasets in Solution Manager,"Login and navigate to Solution Manager. Test connections and manage datasets, then verify the home page.","Step 1: Navigate to /landing-page
+Step 2: Click on link ifsCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
 Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
 Step 4: Navigate to /main/ifsapplications/web/*
-Step 5: Click on input search
-Step 6: Enter input value in input search
-Step 7: Click on link schedulingOptimizationConfig -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationConfiguration/*'
-Step 8: Click on input checkbox
-Step 9: Click on button globalOverflow
-Step 10: Click on link schedulingOptimizationDatasets -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationDatasets/*'
-Step 11: Click on input checkbox
-Step 12: Click on input checkbox2
-Step 13: Click on button enableDataset
-Step 14: Click on div schedulingOptimizationDatasets
-Step 15: Click on link viewOutputData -> Navigate to page '/main/ifsapplications/web/page/SchedulingOutputData/*'
-Step 16: Click on button userProfile
-Step 17: Click on button logout -> Navigate to page '/landing-page'
+Step 5: Click on button navigator
+Step 6: Click on input findPage2
+Step 7: Enter input value in input findPage2
+Step 8: Click on link solutionManagerAutomationOptimization -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationConfiguration/*'
+Step 9: Click on input checkbox
+Step 10: Click on div menuTrigger
+Step 11: Click on button testConnection
+Step 12: Click on div menuTrigger2
+Step 13: Click on link schedulingOptimizationDatasets -> Navigate to page '/main/ifsapplications/web/page/PsoIntegrationDatasets/*'
+Step 14: Click on input psoIntegrationDatasetsCheckbox
+Step 15: Click on input checkbox
+Step 16: Click on button disableDataset
+Step 17: Click on button ok -> Navigate to page ''
 Step 18: Take full page screenshot as checkpoint
-",Low,NEW
-54,Create and Manage Customer Accounts in CRM,"Login to the application, create multiple customer accounts with details, manage representatives, and delete accounts before logging out.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
-Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
-Step 3: Navigate to /main/ifsapplications/web/*
-Step 4: Click on input search
-Step 5: Enter input value in input search
-Step 6: Click on link account -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
-Step 7: Click on button new
-Step 8: Click on input name
-Step 9: Enter input value in input name2
-Step 10: Click on input category
-Step 11: Enter input value in input category2
-Step 12: Click on item customerOption
-Step 13: Click on input defaultLanguage
-Step 14: Enter input value in input defaultLanguage2
-Step 15: Click on item languageOption
-Step 16: Click on input country
-Step 17: Enter input value in input country2
-Step 18: Click on item australia
-Step 19: Click on button save
-Step 20: Click on button new2
-Step 21: Click on input mainRepresentative
-Step 22: Enter input value in input mainRepresentative2
-Step 23: Click on item stephenJeffsWattsCrm
-Step 24: Click on button save2
-Step 25: Click on button new
-Step 26: Click on input name3
-Step 27: Enter input value in input name4
-Step 28: Click on input category3
-Step 29: Enter input value in input category4
-Step 30: Click on item endCustomer
-Step 31: Click on input defaultLanguage3
-Step 32: Enter input value in input defaultLanguage4
-Step 33: Click on item languageOption
-Step 34: Click on input country3
-Step 35: Enter input value in input country4
-Step 36: Click on item australia
-Step 37: Click on button save
-Step 38: Click on button new2
-Step 39: Click on input mainRepresentative
-Step 40: Enter input value in input mainRepresentative2
-Step 41: Click on item stephenJeffsWattsCrm
+",Medium,NEW
+57,Create and Manage Marketing Leads and Campaigns,"Login and navigate to the Marketing List. Create new leads and campaigns, manage details, and verify the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingList/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingList/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description
+Step 7: Click on input mainRepresentative
+Step 8: Enter input value in input mainRepresentative2
+Step 9: Click on item sjStephenJeffsWatts
+Step 10: Click on button save -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 11: Click on button new
+Step 12: Click on input description
+Step 13: Enter input value in input description2
+Step 14: Click on input leadCompany
+Step 15: Enter input value in input leadCompany2
+Step 16: Click on input defaultLanguage
+Step 17: Enter input value in input defaultLanguage2
+Step 18: Click on label english
+Step 19: Click on input country
+Step 20: Enter input value in input country2
+Step 21: Click on item auStralia
+Step 22: Click on input leadContact
+Step 23: Enter input value in input leadContact2
+Step 24: Click on button save -> Navigate to page '/main/ifsapplications/web/page/MarketingList/*'
+Step 25: Click on graniteChip search
+Step 26: Click on graniteChip advanced
+Step 27: Click on textarea search
+Step 28: Enter input value in textarea search
+Step 29: Click on button search
+Step 30: Click on button new2
+Step 31: Click on div containerField
+Step 32: Click on button picker
+Step 33: Click on input targetType
+Step 34: Enter input value in input targetType2
+Step 35: Click on item leadContact
+Step 36: Click on input accountLead
+Step 37: Enter input value in input accountLead2
+Step 38: Click on item crmCompany123
+Step 39: Click on input leadContact
+Step 40: Enter input value in input leadContact2
+Step 41: Click on item crmLeadContact
 Step 42: Click on button save2
-Step 43: Click on graniteChip advanced
-Step 44: Click on textarea search
-Step 45: Enter input value in textarea search
-Step 46: Click on button search
-Step 47: Click on button new3
-Step 48: Enter input value in input accountLead
-Step 49: Click on item customerCategory
-Step 50: Click on button save3
-Step 51: Click on link accountStructure -> Navigate to page '/main/ifsapplications/web/page/CrmCompanyHierarchy/*'
-Step 52: Click on div object
-Step 53: Click on link details -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
-Step 54: Click on button delete
-Step 55: Click on button delete2
-Step 56: Click on graniteChip search
-Step 57: Click on graniteChip advanced
-Step 58: Click on textarea search2
-Step 59: Enter input value in textarea search2
-Step 60: Click on button search
-Step 61: Click on button delete
-Step 62: Click on button delete3
-Step 63: Click on button userDropdown
-Step 64: Click on button logout -> Navigate to page ''
-Step 65: Take full page screenshot as checkpoint
+Step 43: Click on link marketingCampaign -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 44: Click on div search
+Step 45: Click on button new
+Step 46: Click on input description
+Step 47: Enter input value in input description2
+Step 48: Click on input campaignType
+Step 49: Enter input value in input campaignType2
+Step 50: Click on label conference
+Step 51: Click on input startDate
+Step 52: Enter input value in input startDate2
+Step 53: Click on input mainRepresentative
+Step 54: Enter input value in input mainRepresentative2
+Step 55: Click on item sjStephenJeffsWatts
+Step 56: Click on button ok
+Step 57: Click on button addTargetsFromMarketingList
+Step 58: Click on input marketingListsCheckbox
+Step 59: Click on button ok2
+Step 60: Click on div marketingListsTab
+Step 61: Click on input marketingCampaignCheckbox
+Step 62: Click on link details -> Navigate to page '/main/ifsapplications/web/page/MarketingList/*'
+Step 63: Click on button delete
+Step 64: Click on button delete2
+Step 65: Click on link marketingCampaign -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 66: Click on graniteChip search
+Step 67: Click on graniteChip advanced
+Step 68: Click on textarea search
+Step 69: Enter input value in textarea search
+Step 70: Click on button search -> Navigate to page ''
+Step 71: Take full page screenshot as checkpoint
+",Low,NEW
+56,Navigate and Search for Customers in Human Capital Management,Login to the application and navigate to Human Capital Management. Search for specific customers and verify the home page.,"Step 1: Navigate to /landing-page
+Step 2: Click on link ifsCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 4: Navigate to /main/ifsapplications/web/*
+Step 5: Click on button humanCapitalManagement
+Step 6: Click on button scrollUp
+Step 7: Click on input findPage
+Step 8: Enter input value in input findPage
+Step 9: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 10: Click on button search
+Step 11: Click on div lockboxCustomer1057
+Step 12: Click on div airbusGermany
+Step 13: Click on div nameAirbusFrance
+Step 14: Click on div nameHarleyDavidson
+Step 15: Click on nav navigator
+Step 16: Click on button navigator
+Step 17: Click on button navigator2
+Step 18: Click on link accountContact -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 19: Click on link accountStructure
+Step 20: Click on link accountsCrm
+Step 21: Click on link accountCrm
+Step 22: Click on link accountCrm2 -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 23: Click on button search -> Navigate to page ''
+Step 24: Take full page screenshot as checkpoint
 ",Trivial,NEW
