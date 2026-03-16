@@ -27,11 +27,11 @@ TrueTestScripts.navigate("main/ifsapplications/web/${web_id}")
 
 "Step 4: Click on input search"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_main_ifsapplications_web/input_search'))
+WebUI.enhancedClick(findTestObject('Archived/Archived_20260316/ifs26r1samifsloops/Page_main_ifsapplications_web/input_search'))
 
 "Step 5: Enter input value in input search"
 
-WebUI.setText(findTestObject('AI-Generated/ifs26r1samifsloops/Page_main_ifsapplications_web/input_search'), input_search)
+WebUI.setText(findTestObject('Archived/Archived_20260316/ifs26r1samifsloops/Page_main_ifsapplications_web/input_search'), input_search)
 
 "Step 6: Click on link account -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'"
 
