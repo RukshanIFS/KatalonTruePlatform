@@ -30,7 +30,7 @@
          <value>internal:label=\"Lead Contact\"s</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c1728421794-28 ifs-field ifs-field-hover ng-untouched ng-pristine ng-star-inserted editable ng-valid edit-mode focused</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>textbox</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

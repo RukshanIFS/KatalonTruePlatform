@@ -13,9 +13,9 @@
       <entry>
          <key>BASIC</key>
          <value>//*[equals(@text,'SJ
-         Stephen Jeffs-Watts(Name)
-         STEJ(Representative ID)
-         (No value)(Role)') and equals(@role,'option')]</value>
+               Stephen Jeffs-Watts(Name)
+               STEJ(Representative ID)
+               (No value)(Role)') and equals(@role,'option')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
          <value>#modalDialogComponent-NewMarketingCampaignGroup-MainRepresentativeId-lovContainerComponent-lovComponent-lov-row-0</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>selector-lov-row ng-star-inserted selected-lov-row</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,9 +57,9 @@
       <name>text</name>
       <type>Main</type>
       <value>SJ
-      Stephen Jeffs-Watts(Name)
-      STEJ(Representative ID)
-      (No value)(Role)</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+            Stephen Jeffs-Watts(Name)
+            STEJ(Representative ID)
+            (No value)(Role)</value>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

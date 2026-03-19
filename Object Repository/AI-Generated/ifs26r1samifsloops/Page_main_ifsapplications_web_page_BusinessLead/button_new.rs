@@ -30,7 +30,7 @@
          <value>button[title=\"New\"]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>granite-button-base granite-button-wrapper granite-button granite-flat-button ng-star-inserted</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>BusinessLeadDetailPage-fndToolbar-action-New-fndButton-button</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>title</name>
       <type>Main</type>
       <value>New</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
