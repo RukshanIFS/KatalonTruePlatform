@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login and navigate to the business leads page. Create new leads, perform advanced searches, and delete selected records.</description>
+   <name>TC60-Create and Manage Business Leads with Advanced Search and Deletion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65482fe4-85fd-4869-bc77-826bd4af7595</testCaseGuid>
+   <variable>
+      <defaultValue>'BusinessLeadDetailPage;path=0.279000411.615228976.1142250054.2103100803'</defaultValue>
+      <description>Step 3: Navigate to /main/ifsapplications/web/page/BusinessLead/* - (Dynamic URL variable)</description>
+      <id>8a7be0fe-8629-4465-b259-8e7d9408e6c3</id>
+      <masked>false</masked>
+      <name>BusinessLead_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'IFS_aurena'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>d53a07fd-4b77-4b04-b623-04900f74332c</id>
+      <masked>false</masked>
+      <name>auth_client_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'766e7c102722c1fcb25ab83ba460ad8e'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>2b757ff7-1851-482c-802a-b88779d8c42c</id>
+      <masked>false</masked>
+      <name>auth_nonce</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://ifs26r1samifsloops.rnd.ifsdevworld.com/redirect'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>25467f05-7fff-469f-b787-ef5a245cdd4a</id>
+      <masked>false</masked>
+      <name>auth_redirect_uri</name>
+   </variable>
+   <variable>
+      <defaultValue>'code'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>a2d6eb17-90c3-4375-aba2-33004559022b</id>
+      <masked>false</masked>
+      <name>auth_response_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'openid microprofile-jwt'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>52155db7-b6af-48e4-99a9-e666591fbed9</id>
+      <masked>false</masked>
+      <name>auth_scope</name>
+   </variable>
+   <variable>
+      <defaultValue>'c1b80a804e71837bdda666bae44d2055'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>291b14e5-f0c9-48d3-bc33-6e2657a37bf3</id>
+      <masked>false</masked>
+      <name>auth_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'crmLead_234'</defaultValue>
+      <description>Step 37: Enter input value in input accountLead2 - (Input data variable)</description>
+      <id>cf4aeabc-6d4f-4462-99a2-f6b2ba1cf263</id>
+      <masked>false</masked>
+      <name>input_accountLead2</name>
+   </variable>
+   <variable>
+      <defaultValue>'LContact_234'</defaultValue>
+      <description>Step 20: Enter input value in input contact2 - (Input data variable)</description>
+      <id>09d0a71d-daa0-4599-886d-cdc3e9a3cb02</id>
+      <masked>false</masked>
+      <name>input_contact2</name>
+   </variable>
+   <variable>
+      <defaultValue>'AU'</defaultValue>
+      <description>Step 13: Enter input value in input country2 - (Input data variable)</description>
+      <id>dfb16783-8f52-4747-b417-2470ad234efb</id>
+      <masked>false</masked>
+      <name>input_country2</name>
+   </variable>
+   <variable>
+      <defaultValue>'En'</defaultValue>
+      <description>Step 10: Enter input value in input defaultLanguage2 - (Input data variable)</description>
+      <id>1400edc5-e600-4dce-a599-d7e93e3fd9fe</id>
+      <masked>false</masked>
+      <name>input_defaultLanguage2</name>
+   </variable>
+   <variable>
+      <defaultValue>'crm_LC_234'</defaultValue>
+      <description>Step 6: Enter input value in input description2 - (Input data variable)</description>
+      <id>a29d7925-51a9-42af-890a-1b82f8f36f74</id>
+      <masked>false</masked>
+      <name>input_description2</name>
+   </variable>
+   <variable>
+      <defaultValue>'CRM_ML_234'</defaultValue>
+      <description>Step 29: Enter input value in input description2 - (Input data variable)</description>
+      <id>dfdd9e71-5827-4a08-b907-27dd79d11f76</id>
+      <masked>false</masked>
+      <name>input_description2_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'CRM_ML_234'</defaultValue>
+      <description>Step 51: Enter input value in input filter - (Input data variable)</description>
+      <id>422a55d9-6718-40a0-a596-3f20f79f85d3</id>
+      <masked>false</masked>
+      <name>input_filter</name>
+   </variable>
+   <variable>
+      <defaultValue>'44'</defaultValue>
+      <description>Step 22: Enter input value in input lead2 - (Input data variable)</description>
+      <id>8f048196-9d26-49c6-9cda-a9e2f4339a48</id>
+      <masked>false</masked>
+      <name>input_lead2</name>
+   </variable>
+   <variable>
+      <defaultValue>'crmLead_234'</defaultValue>
+      <description>Step 8: Enter input value in input leadCompany2 - (Input data variable)</description>
+      <id>05d0daa2-ac64-47d5-8eee-63f39bc49f9b</id>
+      <masked>false</masked>
+      <name>input_leadCompany2</name>
+   </variable>
+   <variable>
+      <defaultValue>'contactL_234'</defaultValue>
+      <description>Step 16: Enter input value in input leadContact2 - (Input data variable)</description>
+      <id>90649ecb-ec69-4758-ad30-5f52e07baa0d</id>
+      <masked>false</masked>
+      <name>input_leadContact2</name>
+   </variable>
+   <variable>
+      <defaultValue>'contactL_234'</defaultValue>
+      <description>Step 40: Enter input value in input leadContact2 - (Input data variable)</description>
+      <id>fed963c5-44ac-48ca-96cb-5bc2b18d6a80</id>
+      <masked>false</masked>
+      <name>input_leadContact2_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'marketing List_1'</defaultValue>
+      <description>Step 31: Enter input value in input notes2 - (Input data variable)</description>
+      <id>29f7b33e-f1dc-42de-bd67-6188731207a1</id>
+      <masked>false</masked>
+      <name>input_notes2</name>
+   </variable>
+   <variable>
+      <defaultValue>'L'</defaultValue>
+      <description>Step 34: Enter input value in input targetType - (Input data variable)</description>
+      <id>72bafc1e-59bb-42d4-91ab-5d38c75fcccb</id>
+      <masked>false</masked>
+      <name>input_targetType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lead'</defaultValue>
+      <description>Step 25: Enter input value in input title2 - (Input data variable)</description>
+      <id>e50335c4-6333-4628-af97-f2a10cfc9246</id>
+      <masked>false</masked>
+      <name>input_title2</name>
+   </variable>
+   <variable>
+      <defaultValue>'ifs26r1samifsloops'</defaultValue>
+      <description>Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>a2f89edb-f46a-4fd6-984e-a5313cd00ed2</id>
+      <masked>false</masked>
+      <name>realms_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(LeadRef/AccountName,\'crmLead_234\'))'</defaultValue>
+      <description>Step 46: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>5fdc3a22-0a74-44fb-b283-5021f6dacb5a</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(LeadRef/AccountName,\'crmLead_234\'))'</defaultValue>
+      <description>Step 65: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>d4b7f907-d2d1-4987-87df-9509d039cf4c</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'crm_lc_234\'))'</defaultValue>
+      <description>Step 71: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>ba4cee57-a5e5-47a7-ba9c-7393f56ec7d5</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'crm_ml_234\'))'</defaultValue>
+      <description>Step 59: Enter input value in textarea search - (Input data variable)</description>
+      <id>892a6a34-f177-4fef-bd68-c8c9c0b82c0d</id>
+      <masked>false</masked>
+      <name>textarea_search</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>d0da4f66-764f-43de-b786-b1e32b0e37cb</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

@@ -30,7 +30,7 @@
          <value>#granite-chip-list-1 granite-chip</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>granite-chip granite-chip-selectable</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Advanced</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

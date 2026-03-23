@@ -12,7 +12,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[equals(@text,' AUSTRALIA ') and equals(@role,'option')]</value>
+         <value>//*[equals(@text,'AUSTRALIA') and equals(@role,'option')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -30,7 +30,7 @@
          <value>li &gt;&gt; nth=0</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-star-inserted</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,14 +46,14 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> AUSTRALIA </value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <value>AUSTRALIA</value>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

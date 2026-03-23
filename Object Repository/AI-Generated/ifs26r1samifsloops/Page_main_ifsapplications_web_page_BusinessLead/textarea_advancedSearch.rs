@@ -30,7 +30,7 @@
          <value>textarea[title=\"Ctrl\\+Enter to search\"]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-tns-c2368425041-9 ng-untouched ng-pristine ng-valid</value>
-      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Ctrl+Enter to search</value>
-      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>ce743a67-f8d6-4398-9a64-18f996fa3314</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

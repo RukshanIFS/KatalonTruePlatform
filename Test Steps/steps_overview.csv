@@ -1,4 +1,491 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
+60,Create and Manage Business Leads with Advanced Search and Deletion,"Login and navigate to the business leads page. Create new leads, perform advanced searches, and delete selected records.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 3: Navigate to /main/ifsapplications/web/page/BusinessLead/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input leadCompany
+Step 8: Enter input value in input leadCompany2
+Step 9: Click on input defaultLanguage
+Step 10: Enter input value in input defaultLanguage2
+Step 11: Click on item english
+Step 12: Click on input country
+Step 13: Enter input value in input country2
+Step 14: Click on item auStralia
+Step 15: Click on input leadContact
+Step 16: Enter input value in input leadContact2
+Step 17: Click on button save -> Navigate to page '/main/ifsapplications/web/page/BusinessLeadContact/*'
+Step 18: Click on button new
+Step 19: Click on input contact
+Step 20: Enter input value in input contact2
+Step 21: Click on input lead
+Step 22: Enter input value in input lead2
+Step 23: Click on item crmLead
+Step 24: Click on input title
+Step 25: Enter input value in input title2
+Step 26: Click on button save -> Navigate to page '/main/ifsapplications/web/page/MarketingList/*'
+Step 27: Click on button new
+Step 28: Click on input description
+Step 29: Enter input value in input description2
+Step 30: Click on input notes
+Step 31: Enter input value in input notes2
+Step 32: Click on button save
+Step 33: Click on button new2
+Step 34: Enter input value in input targetType
+Step 35: Click on item leadContact
+Step 36: Click on input accountLead
+Step 37: Enter input value in input accountLead2
+Step 38: Click on item crmLead
+Step 39: Click on input leadContact
+Step 40: Enter input value in input leadContact2
+Step 41: Click on item contactOption
+Step 42: Click on button save2 -> Navigate to page '/main/ifsapplications/web/page/BusinessLeadContact/*'
+Step 43: Click on div search
+Step 44: Click on graniteChip advanced
+Step 45: Click on textarea advancedSearch
+Step 46: Enter input value in textarea advancedSearch
+Step 47: Click on button search
+Step 48: Click on button addToMarketingList
+Step 49: Click on button filterPanel
+Step 50: Click on div description
+Step 51: Enter input value in input filter
+Step 52: Click on button apply
+Step 53: Click on div object
+Step 54: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/MarketingList/*'
+Step 55: Click on div search
+Step 56: Click on graniteChip search
+Step 57: Click on graniteChip advanced
+Step 58: Click on textarea search
+Step 59: Enter input value in textarea search
+Step 60: Click on button search
+Step 61: Click on button delete
+Step 62: Click on button delete2 -> Navigate to page '/main/ifsapplications/web/page/BusinessLeadContact/*'
+Step 63: Click on graniteChip advanced
+Step 64: Click on textarea advancedSearch
+Step 65: Enter input value in textarea advancedSearch
+Step 66: Click on button search
+Step 67: Click on button delete
+Step 68: Click on button delete2 -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 69: Click on graniteChip advanced
+Step 70: Click on textarea advancedSearch
+Step 71: Enter input value in textarea advancedSearch
+Step 72: Click on button search2
+Step 73: Click on button deleteSelectedRecords
+Step 74: Click on button delete -> Navigate to page ''
+Step 75: Take full page screenshot as checkpoint
+",Trivial,NEW
+61,Create New Marketing Campaign and Add Customer Contacts,"Login and navigate to the marketing campaign page. Create a new campaign and add customer contacts, verifying the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item eMarketing
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate2
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label object
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item customer
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item afars
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button picker2
+Step 34: Click on item coCscOslo -> Navigate to page ''
+Step 35: Take full page screenshot as checkpoint
+",Trivial,NEW
+62,Create Marketing Campaign and Verify Landing Page,Login and navigate to the marketing campaign page. Create a new campaign and verify the landing page after submission.,"Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description3
+Step 6: Enter input value in input description4
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item eMarketing
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate3
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/landing-page'
+Step 16: Take full page screenshot as checkpoint
+",Trivial,NEW
+63,Create Marketing Campaign and Add New Customer or Lead,"Login and navigate to the marketing campaign page. Create a new campaign and add a new customer or lead, verifying the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item eMarketing
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate3
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label isNewCustomerOrLead
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item customer
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item afars
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button picker3
+Step 34: Click on item prospect
+Step 35: Click on input category2 -> Navigate to page ''
+Step 36: Take full page screenshot as checkpoint
+",Trivial,NEW
+64,Create New Marketing Campaign and Add Customer Contact,Login and create a new marketing campaign. Add a customer contact with details and verify the home page.,"Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item eMarketing
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate2
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label toggleSwitch
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item prospect2
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item afars
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 34: Click on graniteChip search
+Step 35: Click on graniteChip advanced
+Step 36: Click on textarea search
+Step 37: Enter input value in textarea search2
+Step 38: Click on button search -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
+",Trivial,NEW
+65,Create Marketing Campaign with Conference Type and Add Contact,Login and create a marketing campaign of type conference. Add a new contact and verify the home page.,"Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item conference
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate3
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label toggleSwitch2
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item prospect2
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item english
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 34: Click on graniteChip search
+Step 35: Click on graniteChip advanced
+Step 36: Click on textarea search
+Step 37: Enter input value in textarea search2
+Step 38: Click on button search
+Step 39: Click on button close
+Step 40: Click on button close
+Step 41: Click on button search2 -> Navigate to page ''
+Step 42: Take full page screenshot as checkpoint
+",Trivial,NEW
+66,Create Marketing Campaign and Search for Targets,"Login, create a marketing campaign, and add a new contact. Perform searches for targets and verify the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item conference
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate3
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label object2
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item prospect2
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item english
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 34: Click on graniteChip search
+Step 35: Click on graniteChip advanced
+Step 36: Click on textarea search
+Step 37: Enter input value in textarea search
+Step 38: Click on button search
+Step 39: Click on div targetsTab
+Step 40: Click on button search2
+Step 41: Click on textarea search2
+Step 42: Click on button search2
+Step 43: Click on textarea search2
+Step 44: Enter input value in textarea search2
+Step 45: Click on div targets
+Step 46: Click on button new2
+Step 47: Click on div close
+Step 48: Click on textarea search2
+Step 49: Enter input value in textarea search2
+Step 50: Click on button search
+Step 51: Click on textarea search2
+Step 52: Enter input value in textarea search2
+Step 53: Click on div object
+Step 54: Click on textarea search2
+Step 55: Click on textarea search2
+Step 56: Click on textarea search2
+Step 57: Enter input value in textarea search2
+Step 58: Click on button new2
+Step 59: Click on button picker
+Step 60: Click on label leadContact
+Step 61: Click on button picker2
+Step 62: Click on item englishLeadInNyc -> Navigate to page ''
+Step 63: Take full page screenshot as checkpoint
+",Trivial,NEW
+67,Create Marketing Campaign and Add Account Contact,"Login, create a marketing campaign, and add an account contact. Search for targets and verify the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item conference
+Step 10: Click on input startDate4
+Step 11: Enter input value in input startDate5
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label object3
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item prospect2
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item english
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 34: Click on graniteChip search
+Step 35: Click on graniteChip advanced
+Step 36: Click on textarea search
+Step 37: Enter input value in textarea search
+Step 38: Click on button search
+Step 39: Click on div targets2
+Step 40: Click on button search2
+Step 41: Click on textarea search2
+Step 42: Click on button search2
+Step 43: Click on textarea search2
+Step 44: Enter input value in textarea search2
+Step 45: Click on button search
+Step 46: Click on div targetsTab2
+Step 47: Click on button new2
+Step 48: Click on input targetType
+Step 49: Enter input value in input targetType2
+Step 50: Click on label accountContact
+Step 51: Click on input accountLead
+Step 52: Click on button picker3
+Step 53: Enter input value in input accountLead2
+Step 54: Click on item noMatches
+Step 55: Click on button picker4
+Step 56: Click on button picker5 -> Navigate to page ''
+Step 57: Take full page screenshot as checkpoint
+",Trivial,NEW
+68,Create New Marketing Campaign and Add Contacts,"Login and navigate to the marketing campaign page. Create a new campaign, add details, and include new contacts. Verify the successful creation of the campaign.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item conference
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate3
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label isNewCustomerOrLead2
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item prospect2
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item english
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 34: Click on graniteChip search
+Step 35: Click on graniteChip advanced
+Step 36: Click on textarea search
+Step 37: Enter input value in textarea search
+Step 38: Click on button search
+Step 39: Click on div targets2
+Step 40: Click on button search2
+Step 41: Click on textarea search2
+Step 42: Click on button search2
+Step 43: Click on textarea search2
+Step 44: Enter input value in textarea search2
+Step 45: Click on button search
+Step 46: Click on div targetsTab2
+Step 47: Click on button new2
+Step 48: Click on input targetType
+Step 49: Enter input value in input targetType2
+Step 50: Click on label leadContact2
+Step 51: Click on input accountLead
+Step 52: Click on button picker3
+Step 53: Enter input value in input accountLead2
+Step 54: Click on item englishLeadInNyc
+Step 55: Click on button picker6
+Step 56: Click on button picker5
+Step 57: Enter input value in input accountLead3
+Step 58: Click on item customerId
+Step 59: Click on input leadContact
+Step 60: Click on button picker7
+Step 61: Click on button picker5 -> Navigate to page ''
+Step 62: Take full page screenshot as checkpoint
+",Trivial,NEW
+69,Create Marketing Campaign with Toggle Switch and Add Contacts,"Login and navigate to the marketing campaign page. Create a new campaign, use a toggle switch, add details, and include new contacts. Verify the successful creation of the campaign.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 3: Navigate to /main/ifsapplications/web/page/MarketingCampaign/*
+Step 4: Click on button new
+Step 5: Click on input description
+Step 6: Enter input value in input description2
+Step 7: Click on input campaignType
+Step 8: Enter input value in input campaignType2
+Step 9: Click on item conference
+Step 10: Click on input startDate
+Step 11: Enter input value in input startDate3
+Step 12: Click on input mainRepresentative
+Step 13: Enter input value in input mainRepresentative2
+Step 14: Click on item sjStephenJeffsWatts
+Step 15: Click on button ok -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 16: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 17: Click on button picker
+Step 18: Click on label toggleSwitch3
+Step 19: Click on input category
+Step 20: Enter input value in input category2
+Step 21: Click on item prospect2
+Step 22: Click on input name
+Step 23: Enter input value in input name2
+Step 24: Click on input defaultLanguage
+Step 25: Enter input value in input defaultLanguage2
+Step 26: Click on item english
+Step 27: Click on input country
+Step 28: Enter input value in input country2
+Step 29: Click on item australiaDescription
+Step 30: Click on input contact
+Step 31: Enter input value in input contact2
+Step 32: Click on item jaJabr
+Step 33: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 34: Click on graniteChip search
+Step 35: Click on graniteChip advanced
+Step 36: Click on textarea search
+Step 37: Enter input value in textarea search
+Step 38: Click on button search
+Step 39: Click on div targets2
+Step 40: Click on button search2
+Step 41: Click on textarea search2
+Step 42: Click on button search2
+Step 43: Click on textarea search2
+Step 44: Enter input value in textarea search2
+Step 45: Click on button search
+Step 46: Click on div targetsTab2
+Step 47: Click on button new2
+Step 48: Click on input targetType
+Step 49: Enter input value in input targetType2
+Step 50: Click on label leadContact2
+Step 51: Click on input accountLead -> Navigate to page ''
+Step 52: Take full page screenshot as checkpoint
+",Trivial,NEW
 59,Manage Marketing Campaigns and Customer Contacts in IFS Applications,"Login to IFS Applications and create marketing campaigns. Add new customer contacts, search for targets, and manage leads. Perform deletions and logout.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
 Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
 Step 3: Click on input findPage
@@ -115,7 +602,7 @@ Step 113: Click on button delete
 Step 114: Click on button userProfileSettings
 Step 115: Click on button logout -> Navigate to page '/landing-page'
 Step 116: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,RETAINED
 57,Create and Manage Marketing Leads and Campaigns,"Login and navigate to the Marketing List. Create new leads and campaigns, manage details, and verify the home page.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
 Step 2: Login -> Navigate to page '/main/ifsapplications/web/page/MarketingList/*'
 Step 3: Navigate to /main/ifsapplications/web/page/MarketingList/*

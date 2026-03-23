@@ -30,7 +30,7 @@
          <value>internal:label=\", Current view mode - List\"s &gt;&gt; button[title=\"New\"]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>granite-button-base granite-button-wrapper granite-button granite-flat-button ng-star-inserted</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Form-MarketingListContactsList-fndDataGridToolbar-fndToolbar-action-New-fndButton-button</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,6 +54,6 @@
       <name>title</name>
       <type>Main</type>
       <value>New</value>
-      <webElementGuid>5714b90b-59ba-4213-9ca5-c17d0766999b</webElementGuid>
+      <webElementGuid>a5439a7e-3c75-4750-8611-c3b6f4c39637</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
