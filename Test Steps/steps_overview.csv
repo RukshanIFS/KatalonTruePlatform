@@ -1,4 +1,12 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
+71,Verify Find Page Search and Navigate to Relationship Management Home,"Navigate to landing page, open IFS Cloud auth, log in, search for a page, then open Relationship Management home and verify pageHome.","Step 1: Navigate to /landing-page
+Step 2: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High,STABLE
 70,Manage Marketing Campaigns and Customer Contacts in IFS Applications,"Login to IFS Applications and navigate to marketing campaigns. Create new campaigns and customer contacts, perform searches, and delete records as needed.","Step 1: Navigate to /auth/realms/*/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
 Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
 Step 3: Navigate to /main/ifsapplications/web/*
@@ -95,4 +103,112 @@ Step 93: Click on button search
 Step 94: Click on button deleteSelected
 Step 95: Click on button delete -> Navigate to page ''
 Step 96: Take full page screenshot as checkpoint
-",High,NEW
+",High,RETAINED
+72,Verify Navigation to Home After Login and IFS Cloud Link Selection,"Go to home landing page, log in, return to landing page, open IFS Cloud, open main applications web, search for a page, and verify pageHome.","Step 1: Navigate to /
+Step 2: Login
+Step 3: Navigate to /landing-page
+Step 4: Click on link ifsiCloud
+Step 5: Click on link ifsiCloud -> Navigate to page '/main/ifsapplications/web/*'
+Step 6: Click on input findPage -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium,STABLE
+74,Create Marketing Campaign and Manage Targets Then Delete Records,"Navigate to marketing campaign, create a new campaign, add and save targets, then run advanced searches and delete selected target and contact records.","Step 1: Navigate to /landing-page
+Step 2: Click on link ifsiCloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'
+Step 3: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 7: Click on button new3
+Step 8: Click on input description3
+Step 9: Enter input value in input description4
+Step 10: Click on input campaignType3
+Step 11: Enter input value in input campaignType4
+Step 12: Click on item conferenceOption
+Step 13: Click on input startDate3
+Step 14: Enter input value in input startDate4
+Step 15: Click on input mainRepresentative3
+Step 16: Enter input value in input mainRepresentative4
+Step 17: Click on item selectLovRow
+Step 18: Click on button okNew -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 19: Click on link newContact -> Navigate to page '/main/ifsapplications/web/assistant/NewContact/*'
+Step 20: Click on label newCustomerOrLead
+Step 21: Click on input category3
+Step 22: Enter input value in input category4
+Step 23: Click on item menuOptionProspect
+Step 24: Click on input name3
+Step 25: Enter input value in input name4
+Step 26: Click on input defaultLanguage3
+Step 27: Enter input value in input defaultLanguage4
+Step 28: Click on item selectLanguageOption
+Step 29: Click on input country3
+Step 30: Enter input value in input countryRequired
+Step 31: Click on item selectCountryOption
+Step 32: Click on input contact3
+Step 33: Enter input value in input contact4
+Step 34: Click on item lovOptionSelected
+Step 35: Click on button finish -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 36: Click on input findPage
+Step 37: Enter input value in input findPage
+Step 38: Click on link breadcrumbMarketingCampaign -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 39: Click on graniteChip search
+Step 40: Click on graniteChip search2
+Step 41: Click on graniteChip searchPanel
+Step 42: Click on graniteChip selectAdvanced
+Step 43: Click on textarea advancedSearch
+Step 44: Enter input value in textarea advancedSearch
+Step 45: Click on button search
+Step 46: Click on div targetsTab
+Step 47: Click on button new4
+Step 48: Click on input targetType
+Step 49: Enter input value in input targetType
+Step 50: Click on label leadContact
+Step 51: Click on input accountLead4
+Step 52: Enter input value in input accountLead5
+Step 53: Click on item lovOptionSelected
+Step 54: Click on input leadContact
+Step 55: Click on button openLeadContactPicker
+Step 56: Click on item lovOptionSelected2
+Step 57: Click on button save -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 58: Click on button new
+Step 59: Click on input description
+Step 60: Enter input value in input description2
+Step 61: Click on input leadCompany3
+Step 62: Enter input value in input leadCompany4
+Step 63: Click on input defaultLanguage3
+Step 64: Enter input value in input defaultLanguage4
+Step 65: Click on item languageOption
+Step 66: Click on input country3
+Step 67: Enter input value in input country4
+Step 68: Click on item selectCountryOption
+Step 69: Click on button save
+Step 70: Click on input pageSearch
+Step 71: Enter input value in input pageSearch
+Step 72: Click on link breadcrumbMarketingCampaign -> Navigate to page '/main/ifsapplications/web/page/MarketingCampaign/*'
+Step 73: Click on graniteChip search
+Step 74: Click on graniteChip search2
+Step 75: Click on graniteChip searchPanel
+Step 76: Click on graniteChip searchModeAdvanced
+Step 77: Hold CTRL and click on textarea advancedSearchInput
+Step 78: Enter input value in textarea advancedSearchInput
+Step 79: Click on button search
+Step 80: Click on fndTabHeader targets
+Step 81: Click on input checkbox
+Step 82: Click on button deleteSelectedRecords
+Step 83: Click on button delete
+Step 84: Click on button deleteSelectedRecords2
+Step 85: Click on button delete -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'
+Step 86: Click on graniteChip searchModeToggleAdvanced
+Step 87: Click on textarea advancedSearch
+Step 88: Enter input value in textarea advancedSearch
+Step 89: Click on button search3
+Step 90: Click on button deleteSelectedRecords
+Step 91: Click on button delete -> Navigate to page '/main/ifsapplications/web/page/CrmCustomerContact/*'
+Step 92: Click on graniteChip searchModeToggleAdvanced
+Step 93: Click on textarea advancedSearchInput
+Step 94: Enter input value in textarea advancedSearchInput
+Step 95: Click on fndSearchActionsPanel advancedSearchActions
+Step 96: Click on button search
+Step 97: Click on button deleteSelectedRecords
+Step 98: Click on button delete -> Navigate to page ''
+Step 99: Take full page screenshot as checkpoint
+",Low,NEW

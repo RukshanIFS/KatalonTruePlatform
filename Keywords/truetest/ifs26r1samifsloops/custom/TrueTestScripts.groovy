@@ -21,14 +21,8 @@ public class TrueTestScripts {
     public static void login(Map parameters = [:]) {
         try {
             // Trigger a Login test case
-            WebUI.callTestCase(findTestCase('Test Cases/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-            // Trigger a custom Login method
-            // import your.package
-            // import authentication.Login
-            // call your custom login method
-            // Login.login()
-            // Trigger a custom Login keyword
-            // CustomKeywords.login()
+            //Includes navigation to Login page, login credentials and routing after successful login
+            WebUI.callTestCase(findTestCase('Modules/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
         } catch(Exception e) {
             if (e.getCause() instanceof WebElementNotFoundException) {
                 KeywordUtil.logInfo(e.getMessage())
