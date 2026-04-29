@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login and navigate to the marketing campaign page. Create new campaigns and contacts, input details, and manage leads. Perform advanced searches and delete records as needed.</description>
+   <name>TC75-Create and Manage Marketing Campaigns and Contacts</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aae6e0fe-ec56-4458-a74f-d70bd0273a7f</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>b6e23923-7a67-40c0-90f6-466b9438892e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'IFS_aurena'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>de7b74ca-1049-4ac1-8a64-4ac6fda839d0</id>
+      <masked>false</masked>
+      <name>auth_client_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'62007f68c33ec7d684c2b83cd3a00ae9'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>eabab24c-5d6f-4373-ade6-313b75b7c8a0</id>
+      <masked>false</masked>
+      <name>auth_nonce</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://ifs26r1samifsloops.rnd.ifsdevworld.com/redirect'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>3c926e50-3d8d-4aac-a23d-62fdcf7116c6</id>
+      <masked>false</masked>
+      <name>auth_redirect_uri</name>
+   </variable>
+   <variable>
+      <defaultValue>'code'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>77f880d1-2795-4979-8253-57dd6aa6849e</id>
+      <masked>false</masked>
+      <name>auth_response_type</name>
+   </variable>
+   <variable>
+      <defaultValue>'openid microprofile-jwt'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>78e04c10-6ee9-4a67-92f6-5888d1e21ef3</id>
+      <masked>false</masked>
+      <name>auth_scope</name>
+   </variable>
+   <variable>
+      <defaultValue>'336bdf5dbf8452ad7c81c22ceffbbf0d'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>9102ec10-f830-45d2-8ba8-c5718cf0be29</id>
+      <masked>false</masked>
+      <name>auth_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'Overseas Automobile Sales'</defaultValue>
+      <description>Step 51: Enter input value in input accountLead8 - (Input data variable)</description>
+      <id>1bf09c41-91e4-4996-bb21-6b3bb5c81d22</id>
+      <masked>false</masked>
+      <name>input_accountLead8</name>
+   </variable>
+   <variable>
+      <defaultValue>'Conference'</defaultValue>
+      <description>Step 11: Enter input value in input campaignType5 - (Input data variable)</description>
+      <id>0b9f6b38-05e1-4507-a686-88ee6eb8a072</id>
+      <masked>false</masked>
+      <name>input_campaignType5</name>
+   </variable>
+   <variable>
+      <defaultValue>'P'</defaultValue>
+      <description>Step 22: Enter input value in input category6 - (Input data variable)</description>
+      <id>f8079fd6-4fba-415c-bfea-a5fb29f85de9</id>
+      <masked>false</masked>
+      <name>input_category6</name>
+   </variable>
+   <variable>
+      <defaultValue>'James Brown'</defaultValue>
+      <description>Step 33: Enter input value in input contact6 - (Input data variable)</description>
+      <id>31c50f9f-6f6a-49f8-8b5b-2ed57f475fd8</id>
+      <masked>false</masked>
+      <name>input_contact6</name>
+   </variable>
+   <variable>
+      <defaultValue>'AUSTRALIA'</defaultValue>
+      <description>Step 30: Enter input value in input country5 - (Input data variable)</description>
+      <id>136ede05-cf8f-4ba7-9a67-517494f638b4</id>
+      <masked>false</masked>
+      <name>input_country5</name>
+   </variable>
+   <variable>
+      <defaultValue>'AU'</defaultValue>
+      <description>Step 67: Enter input value in input country6 - (Input data variable)</description>
+      <id>33536336-080a-4f21-896c-e91c2c2388ec</id>
+      <masked>false</masked>
+      <name>input_country6</name>
+   </variable>
+   <variable>
+      <defaultValue>'En'</defaultValue>
+      <description>Step 64: Enter input value in input defaultLanguage4 - (Input data variable)</description>
+      <id>56b189d0-49e8-4831-b6c1-fc0b833b5504</id>
+      <masked>false</masked>
+      <name>input_defaultLanguage4</name>
+   </variable>
+   <variable>
+      <defaultValue>'En'</defaultValue>
+      <description>Step 27: Enter input value in input defaultLanguage6 - (Input data variable)</description>
+      <id>0c810fb6-dd29-415e-b4e0-e82496c33061</id>
+      <masked>false</masked>
+      <name>input_defaultLanguage6</name>
+   </variable>
+   <variable>
+      <defaultValue>'crm_lead1235'</defaultValue>
+      <description>Step 60: Enter input value in input description2 - (Input data variable)</description>
+      <id>d88f1922-aae0-4eb7-8adc-a1058102dd5d</id>
+      <masked>false</masked>
+      <name>input_description2</name>
+   </variable>
+   <variable>
+      <defaultValue>'new marketing campaign_1235'</defaultValue>
+      <description>Step 9: Enter input value in input description6 - (Input data variable)</description>
+      <id>417f4210-8268-4fcb-bc26-61726c012546</id>
+      <masked>false</masked>
+      <name>input_description6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing Campaign'</defaultValue>
+      <description>Step 5: Enter input value in input findPage - (Input data variable)</description>
+      <id>2aa44991-1370-45a0-825c-5baca4ca130c</id>
+      <masked>false</masked>
+      <name>input_findPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing Campaign'</defaultValue>
+      <description>Step 37: Enter input value in input findPage - (Input data variable)</description>
+      <id>ceea97cc-31a5-47dc-b0aa-d0e76851b5d4</id>
+      <masked>false</masked>
+      <name>input_findPage_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'crm_servicemanagement'</defaultValue>
+      <description>Step 62: Enter input value in input leadCompany4 - (Input data variable)</description>
+      <id>cb343503-1e34-4131-8179-a6454d1df9c1</id>
+      <masked>false</masked>
+      <name>input_leadCompany4</name>
+   </variable>
+   <variable>
+      <defaultValue>'LArry Homes'</defaultValue>
+      <description>Step 55: Enter input value in input leadContact2 - (Input data variable)</description>
+      <id>4f866c6e-ae12-403b-b567-e8696416d2bc</id>
+      <masked>false</masked>
+      <name>input_leadContact2</name>
+   </variable>
+   <variable>
+      <defaultValue>'crmLead_contact'</defaultValue>
+      <description>Step 70: Enter input value in input leadContact4 - (Input data variable)</description>
+      <id>04b5d636-57f9-4c67-8d3c-f8066f5bec8f</id>
+      <masked>false</masked>
+      <name>input_leadContact4</name>
+   </variable>
+   <variable>
+      <defaultValue>'STEJ'</defaultValue>
+      <description>Step 16: Enter input value in input mainRepresentative6 - (Input data variable)</description>
+      <id>d2d4fa16-772f-40e4-b8bb-4ee8cf3ff96b</id>
+      <masked>false</masked>
+      <name>input_mainRepresentative6</name>
+   </variable>
+   <variable>
+      <defaultValue>'crm_acc1235'</defaultValue>
+      <description>Step 25: Enter input value in input name6 - (Input data variable)</description>
+      <id>89de3c88-b36f-4297-99b8-8af804689c3d</id>
+      <masked>false</masked>
+      <name>input_name6</name>
+   </variable>
+   <variable>
+      <defaultValue>'1/1/2026'</defaultValue>
+      <description>Step 14: Enter input value in input startDate6 - (Input data variable)</description>
+      <id>384d80f1-c92d-4bff-82cc-0a4a657ca5c7</id>
+      <masked>false</masked>
+      <name>input_startDate6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lead Contact'</defaultValue>
+      <description>Step 48: Enter input value in input targetType2 - (Input data variable)</description>
+      <id>e3267778-cad7-4af8-995b-59827d2f9fd5</id>
+      <masked>false</masked>
+      <name>input_targetType2</name>
+   </variable>
+   <variable>
+      <defaultValue>'ifs26r1samifsloops'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state) - (Dynamic URL variable)</description>
+      <id>3108e725-4a4b-48d9-a46d-3f2ac6fbfac6</id>
+      <masked>false</masked>
+      <name>realms_id</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'new marketing campaign_1235\'))'</defaultValue>
+      <description>Step 42: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>2fb88e47-c37a-4918-9dba-613d97e7c447</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'new marketing campaign_1235\'))'</defaultValue>
+      <description>Step 75: Enter input value in textarea advancedSearch2 - (Input data variable)</description>
+      <id>3f978269-00cf-4f74-aaae-b4f113c1bec4</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch2</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'crm_lead1235\'))'</defaultValue>
+      <description>Step 85: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>d2736517-5286-4329-8b4b-797133f5b274</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'start;path=0.1'</defaultValue>
+      <description>Step 3: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/main/ifsapplications/web/start;path=0.1 - (Dynamic URL variable)</description>
+      <id>c90ddbbd-4772-49a1-bd7b-68bbd8c56276</id>
+      <masked>false</masked>
+      <name>web_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>b6e23923-7a67-40c0-90f6-466b9438892e</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

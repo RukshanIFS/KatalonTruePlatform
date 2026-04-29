@@ -1,5 +1,6 @@
 package truetest.ifs26r1samifsloops.custom
 
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
@@ -275,6 +276,21 @@ public class TrueTestScripts {
         } else {
             WebUI.comment("Cannot find next window.")
         }
+    }
+    
+    public static void acceptAlert() {
+        WebUI.waitForAlert(RunConfiguration.getElementTimeoutForWeb())
+        WebUI.acceptAlert()
+    }
+    
+    public static void dismissAlert() {
+        WebUI.waitForAlert(RunConfiguration.getElementTimeoutForWeb())
+        WebUI.dismissAlert()
+    }
+    
+    public static void setAlertText(String text) {
+        WebUI.waitForAlert(RunConfiguration.getElementTimeoutForWeb())
+        WebUI.setAlertText(text)
     }
 }
 

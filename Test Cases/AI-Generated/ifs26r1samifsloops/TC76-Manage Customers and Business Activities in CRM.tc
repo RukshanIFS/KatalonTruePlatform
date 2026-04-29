@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login and navigate to the CRM. Create new customers and business activities, input details, and manage references. Perform searches and delete records as necessary.</description>
+   <name>TC76-Manage Customers and Business Activities in CRM</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>97d5e26b-f551-45fc-b590-b0e0ac95ee0b</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>aae6bc07-33de-4ae7-84dd-8d50bdbfde83</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Customer'</defaultValue>
+      <description>Step 10: Enter input value in input category2 - (Input data variable)</description>
+      <id>6a9772b6-4da0-4aae-afa2-106423d6534b</id>
+      <masked>false</masked>
+      <name>input_category2</name>
+   </variable>
+   <variable>
+      <defaultValue>'AU'</defaultValue>
+      <description>Step 16: Enter input value in input country2 - (Input data variable)</description>
+      <id>e7af68d0-e1bd-43b5-aa19-ee4e4b401115</id>
+      <masked>false</masked>
+      <name>input_country2</name>
+   </variable>
+   <variable>
+      <defaultValue>'En'</defaultValue>
+      <description>Step 13: Enter input value in input defaultLanguage2 - (Input data variable)</description>
+      <id>3d678d2b-8ebc-45b7-a242-aab1f1c42319</id>
+      <masked>false</masked>
+      <name>input_defaultLanguage2</name>
+   </variable>
+   <variable>
+      <defaultValue>'STEJ'</defaultValue>
+      <description>Step 23: Enter input value in input mainRepresentative2 - (Input data variable)</description>
+      <id>3b5b5817-618c-4d28-afce-da2f194cdf07</id>
+      <masked>false</masked>
+      <name>input_mainRepresentative2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Customer1235'</defaultValue>
+      <description>Step 8: Enter input value in input name2 - (Input data variable)</description>
+      <id>e8ecfaec-7b17-4d82-86ee-a4fa55d4f49c</id>
+      <masked>false</masked>
+      <name>input_name2</name>
+   </variable>
+   <variable>
+      <defaultValue>'BASubject_1235'</defaultValue>
+      <description>Step 21: Enter input value in input subject2 - (Input data variable)</description>
+      <id>b77f318c-bbad-4455-8c3a-ccba8df70e87</id>
+      <masked>false</masked>
+      <name>input_subject2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 37: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>56ffb1e4-5bfd-4e13-be4d-53c2b21a6377</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Name),\'customer_1235\'))'</defaultValue>
+      <description>Step 34: Enter input value in textarea advancedSearchInput - (Input data variable)</description>
+      <id>b9466e6c-2208-44d7-b7db-f5a1945acc11</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearchInput</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Name),\'customer_1235\'))'</defaultValue>
+      <description>Step 41: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>79e3ea11-14d1-400b-9b6b-a5e2203016fe</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Name),\'customer_123\'))'</defaultValue>
+      <description>Step 44: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>4a2c0d65-4cd8-432e-af73-3dc51f8bc464</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'start;path=0.1'</defaultValue>
+      <description>Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/main/ifsapplications/web/start;path=0.1 - (Dynamic URL variable)</description>
+      <id>4e18bf13-91c9-4999-8ea6-343499195e7f</id>
+      <masked>false</masked>
+      <name>web_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>aae6bc07-33de-4ae7-84dd-8d50bdbfde83</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
