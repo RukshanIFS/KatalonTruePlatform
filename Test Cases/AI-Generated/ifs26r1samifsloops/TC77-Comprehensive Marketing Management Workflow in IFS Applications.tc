@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate through IFS applications to manage marketing lists, leads, and campaigns. Create, search, and delete records while ensuring data integrity and workflow efficiency.</description>
+   <name>TC77-Comprehensive Marketing Management Workflow in IFS Applications</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>11302e34-088e-420e-9bcb-3649602f3df3</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>db13b505-14f9-40f9-b60e-cf2e16a22c03</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'crm_servicemanagement1234'</defaultValue>
+      <description>Step 41: Enter input value in input accountLead2 - (Input data variable)</description>
+      <id>c1bee143-8f08-472a-bcee-233b86324316</id>
+      <masked>false</masked>
+      <name>input_accountLead2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Co'</defaultValue>
+      <description>Step 54: Enter input value in input campaignType7 - (Input data variable)</description>
+      <id>db12dbcf-ac6d-4b02-a247-684175d313c6</id>
+      <masked>false</masked>
+      <name>input_campaignType7</name>
+   </variable>
+   <variable>
+      <defaultValue>'AU'</defaultValue>
+      <description>Step 23: Enter input value in input country8 - (Input data variable)</description>
+      <id>f4e63e91-bb39-4b37-a333-d856bd7201e1</id>
+      <masked>false</masked>
+      <name>input_country8</name>
+   </variable>
+   <variable>
+      <defaultValue>'En'</defaultValue>
+      <description>Step 20: Enter input value in input defaultLanguage6 - (Input data variable)</description>
+      <id>d854428b-4562-4ca1-8589-e057af7c29da</id>
+      <masked>false</masked>
+      <name>input_defaultLanguage6</name>
+   </variable>
+   <variable>
+      <defaultValue>'CRM_ML12345'</defaultValue>
+      <description>Step 9: Enter input value in input description - (Input data variable)</description>
+      <id>94167730-48e3-4750-855d-5535c7d32ccd</id>
+      <masked>false</masked>
+      <name>input_description</name>
+   </variable>
+   <variable>
+      <defaultValue>'crm_lead1234'</defaultValue>
+      <description>Step 16: Enter input value in input description4 - (Input data variable)</description>
+      <id>a139915b-8f06-4617-b1b9-41dd4816eda9</id>
+      <masked>false</masked>
+      <name>input_description4</name>
+   </variable>
+   <variable>
+      <defaultValue>'new marketing campaign_1234'</defaultValue>
+      <description>Step 52: Enter input value in input description8 - (Input data variable)</description>
+      <id>f63493f9-4691-4e41-b404-e6db6e1cd69d</id>
+      <masked>false</masked>
+      <name>input_description8</name>
+   </variable>
+   <variable>
+      <defaultValue>'CRM_ML12345'</defaultValue>
+      <description>Step 66: Enter input value in input filter - (Input data variable)</description>
+      <id>853aac87-88f0-4c9c-803e-4a810902a009</id>
+      <masked>false</masked>
+      <name>input_filter</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing Campaign'</defaultValue>
+      <description>Step 48: Enter input value in input findPage - (Input data variable)</description>
+      <id>63975f6c-7ab2-4bd2-a935-75027b3dd52b</id>
+      <masked>false</masked>
+      <name>input_findPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lead'</defaultValue>
+      <description>Step 76: Enter input value in input findPage - (Input data variable)</description>
+      <id>fd1eb242-afd8-4bd6-93af-bb8891258590</id>
+      <masked>false</masked>
+      <name>input_findPage_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing Campaign'</defaultValue>
+      <description>Step 85: Enter input value in input findPage - (Input data variable)</description>
+      <id>f8a489c9-d4e6-424e-bd3c-1431eefd5807</id>
+      <masked>false</masked>
+      <name>input_findPage_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'crm_servicemanagement1234'</defaultValue>
+      <description>Step 18: Enter input value in input leadCompany6 - (Input data variable)</description>
+      <id>6a53216a-d339-498b-9522-b941137bd6ad</id>
+      <masked>false</masked>
+      <name>input_leadCompany6</name>
+   </variable>
+   <variable>
+      <defaultValue>'crmLead_contact'</defaultValue>
+      <description>Step 44: Enter input value in input leadContact2 - (Input data variable)</description>
+      <id>cbefe69d-ac7a-4a2d-be1f-b375325d808a</id>
+      <masked>false</masked>
+      <name>input_leadContact2</name>
+   </variable>
+   <variable>
+      <defaultValue>'crmLead_contact'</defaultValue>
+      <description>Step 26: Enter input value in input leadContact6 - (Input data variable)</description>
+      <id>90d74b31-0fb0-4c53-a07e-39080c9b7b0a</id>
+      <masked>false</masked>
+      <name>input_leadContact6</name>
+   </variable>
+   <variable>
+      <defaultValue>'STEJ'</defaultValue>
+      <description>Step 59: Enter input value in input mainRepresentative8 - (Input data variable)</description>
+      <id>18d1e0c7-e8b0-4543-99d2-b46264d57bca</id>
+      <masked>false</masked>
+      <name>input_mainRepresentative8</name>
+   </variable>
+   <variable>
+      <defaultValue>'marketing list_1'</defaultValue>
+      <description>Step 11: Enter input value in input notes2 - (Input data variable)</description>
+      <id>ac9f8698-e66a-46bf-91be-8fd6da4f7956</id>
+      <masked>false</masked>
+      <name>input_notes2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing List'</defaultValue>
+      <description>Step 29: Enter input value in input pageSearch - (Input data variable)</description>
+      <id>930e2f77-daee-4248-945b-a8b0b1a1e322</id>
+      <masked>false</masked>
+      <name>input_pageSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing List'</defaultValue>
+      <description>Step 6: Enter input value in input search - (Input data variable)</description>
+      <id>9d3312be-1beb-4665-95e9-cef6863f4e8e</id>
+      <masked>false</masked>
+      <name>input_search</name>
+   </variable>
+   <variable>
+      <defaultValue>'1/1/2026'</defaultValue>
+      <description>Step 57: Enter input value in input startDate8 - (Input data variable)</description>
+      <id>f2222147-7be3-4ff4-93b9-31cb21ee3cb9</id>
+      <masked>false</masked>
+      <name>input_startDate8</name>
+   </variable>
+   <variable>
+      <defaultValue>'L'</defaultValue>
+      <description>Step 38: Enter input value in input targetType - (Input data variable)</description>
+      <id>0f35eb31-22b3-49d9-9bb9-e2cbc5c89ad1</id>
+      <masked>false</masked>
+      <name>input_targetType</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'crm_ml1234\'))'</defaultValue>
+      <description>Step 34: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>e3485488-d105-4dc9-96b4-95e357cf99a4</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'new marketing campaign_1234\'))'</defaultValue>
+      <description>Step 91: Enter input value in textarea advancedSearch3 - (Input data variable)</description>
+      <id>5ab68326-386d-441b-938f-436cd8bedb75</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch3</name>
+   </variable>
+   <variable>
+      <defaultValue>'(startswith(tolower(Description),\'crm_lead1234\'))'</defaultValue>
+      <description>Step 80: Enter input value in textarea advancedSearch - (Input data variable)</description>
+      <id>ea1d7faf-1c4d-4d37-b781-b34e7b0399b4</id>
+      <masked>false</masked>
+      <name>textarea_advancedSearch_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>db13b505-14f9-40f9-b60e-cf2e16a22c03</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
