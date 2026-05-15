@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 
-    WebUI.navigateToUrl("https://ifsmasterqpuiacmb.rnd.ifsdevworld.com/main/ifsapplications/web/start")
+    WebUI.navigateToUrl("https://ifs26r1samifsloops.rnd.ifsdevworld.com/main/ifsapplications/web/start")
 	TestObject testObject = ObjectRepository.findTestObject('Object Repository/navigate/obj_Username')
 	WebUI.waitForElementClickable(testObject, 30)
 	WebUI.setText(testObject, 'ifsapp')
