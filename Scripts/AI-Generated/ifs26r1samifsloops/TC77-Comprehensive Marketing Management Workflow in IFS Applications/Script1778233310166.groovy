@@ -13,17 +13,30 @@ def setup() {
 	//WebUI.maximizeWindow()
 }
 
+'Genarate Random number to identify records uniquely'
+String RN = ((Math.random() * 10000000) as int)
+input_accountLead2 = 'crm_servicemanagement' + RN
+input_description = 'CRM_ML' + RN
+input_description4 = "crm_lead" + RN
+input_description8 = "new marketing campaign_" + RN
+input_filter = input_description
+input_leadCompany6 = input_accountLead2
+
+textarea_advancedSearch = "(startswith(tolower(Description),'crm_ml"+RN+"'))"
+textarea_advancedSearch3 = "(startswith(tolower(Description),'new marketing campaign_1"+RN+"'))"
+textarea_advancedSearch_1 = "(startswith(tolower(Description),'crm_lead"+RN+"'))"
+
 "Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/landing-page"
 
 TrueTestScripts.navigate("/landing-page")
 
-"Step 2: Click on link ifsiFsccloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'"
+// "Step 2: Click on link ifsiFsccloud -> Navigate to page '/auth/realms/*/protocol/openid-connect/auth'"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_landing_page/link_ifsiFsccloud'))
+// WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_landing_page/link_ifsiFsccloud'))
 
-"Step 3: Click on body idIfsBody"
+// "Step 3: Click on body idIfsBody"
 
-WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_auth_realms_protocol_openid_connect_auth/body_idIfsBody'))
+// WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_auth_realms_protocol_openid_connect_auth/body_idIfsBody'))
 
 "Step 4: Login into Application"
 
@@ -64,6 +77,8 @@ WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_main_if
 "Step 13: Click on input findPage -> Navigate to page '/main/ifsapplications/web/page/BusinessLead/*'"
 
 WebUI.enhancedClick(findTestObject('AI-Generated/ifs26r1samifsloops/Page_main_ifsapplications_web_page_MarketingList/input_search'))
+
+WebUI.navigateToUrl("https://ifs26r1samifsloops.rnd.ifsdevworld.com/main/ifsapplications/web/page/BusinessLead/BusinessLeadDetailPage")
 
 "Step 14: Click on button new"
 
