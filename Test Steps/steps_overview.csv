@@ -94,4 +94,44 @@ Step 92: Click on button search
 Step 93: Click on button deleteSelected5
 Step 94: Click on button delete -> Navigate to page ''
 Step 95: Take full page screenshot as checkpoint
-",Medium,NEW
+",Medium,RETAINED
+78,Manage Customer Relationships and Business Activities in IFS Applications,"Login to IFS Applications and navigate to the CRM section. Create a new customer, add business activities, and perform search and delete operations.","Step 1: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/auth/realms/ifs26r1samifsloops/protocol/openid-connect/auth with params (client id, nonce, redirect uri, response type, scope, state)
+Step 2: Login -> Navigate to page '/main/ifsapplications/web/*'
+Step 3: Navigate to https://ifs26r1samifsloops.rnd.ifsdevworld.com/main/ifsapplications/web/start;path=0.1
+Step 4: Click on input findPage
+Step 5: Enter input value in input findPage
+Step 6: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 7: Click on button new
+Step 8: Click on input name
+Step 9: Enter input value in input name2
+Step 10: Click on input category
+Step 11: Enter input value in input category2
+Step 12: Click on item customer
+Step 13: Click on input defaultLanguage
+Step 14: Enter input value in input defaultLanguage2
+Step 15: Click on item english
+Step 16: Click on input country
+Step 17: Enter input value in input country2
+Step 18: Click on item australia
+Step 19: Click on button save
+Step 20: Click on button newBusinessActivity
+Step 21: Click on input subject
+Step 22: Enter input value in input subject2
+Step 23: Click on input mainRepresentative
+Step 24: Enter input value in input mainRepresentative2
+Step 25: Click on item selectedRepresentative
+Step 26: Click on button ok
+Step 27: Click on button yes -> Navigate to page '/main/ifsapplications/web/page/BusinessActivity/*'
+Step 28: Click on button deleteSelected
+Step 29: Click on button delete
+Step 30: Click on input findPage
+Step 31: Enter input value in input findPage
+Step 32: Click on link relationshipManagement -> Navigate to page '/main/ifsapplications/web/page/CrmCustomer/*'
+Step 33: Click on graniteChip advanced
+Step 34: Click on textarea search
+Step 35: Enter input value in textarea search
+Step 36: Click on button search
+Step 37: Click on button delete
+Step 38: Click on button delete2 -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
+",Trivial,NEW
